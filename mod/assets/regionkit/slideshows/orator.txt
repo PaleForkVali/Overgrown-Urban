@@ -1,0 +1,7 @@
+SHADER Basic
+DELAY 1
+INTERPOLATE Quadratic [XY]
+CONTAINER Midground
+START
+orator, 0,1
+LOOP

@@ -1,0 +1,95 @@
+{
+	"frames": {
+		"dyingfishmetal01.png": {
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 350
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 350
+			},
+			"sourceSize": {
+				"w": 1000,
+				"h": 350
+			}
+		},
+		"dyingfishmetal02.png": {
+			"frame": {
+				"x": 1000,
+				"y": 0,
+				"w": 1000,
+				"h": 350
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 350
+			},
+			"sourceSize": {
+				"w": 1000,
+				"h": 350
+			}
+		},
+		"dyingfishmetal03.png": {
+			"frame": {
+				"x": 0,
+				"y": 350,
+				"w": 1000,
+				"h": 350
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 350
+			},
+			"sourceSize": {
+				"w": 1000,
+				"h": 350
+			}
+		},
+		"dyingfishmetal04.png": {
+			"frame": {
+				"x": 1000,
+				"y": 350,
+				"w": 1000,
+				"h": 350
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 350
+			},
+			"sourceSize": {
+				"w": 1000,
+				"h": 350
+			}
+		},
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 2000,
+			"h": 1050
+		},
+		"scale": "1"
+	}
+}

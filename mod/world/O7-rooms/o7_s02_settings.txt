@@ -1,0 +1,6 @@
+Clouds: 0.2282609
+EffectColorA: 13
+Effects: Darkness-0-40-40, 
+PlacedObjects: LightSource><479.7845><439.447><0.2826087~Environment~331~-95~-234~-149.3975~1~1~None~0~0, 
+FadePalette: 2, 0.4021739
+MorePalette0: 3, 0.3369565

@@ -1,0 +1,10 @@
+CeilingDrips: 0.2717391
+Clouds: 0.4891304
+Grime: 0.2293366
+Palette: 263
+EffectColorA: 3
+EffectColorB: 2
+PlacedObjects: ScavengerTreasury><429.133><204.8269><14.94061~128.4445, HangingPearls><465.6663><470.1406><, HangingPearls><576.7202><450.6123><, DandelionPatch><579.8146><166.6471><5.69165~38.13336, LanternOnStick><603.4954><340.0181><22.76666~-54.31107, CustomDecal><487.6915><141.9423><-63~185~163~206~211~16~-558~-13~0.4021739~1~0~ovu - god~0.2717391~0~0.5326087~0~0.07608695~0.3043478~0.5326087~0, SuperStructureFuses><634.5623><173.94><57~92, CustomDecal><-202.8854><-51.89722><4~774~1358~776~1356~-5~-71~205~0~1~0~o7 - scavtrade~0.5~0~0.5~0~0.5~0~0.5~0, 
+AmbientSounds: OMNI><am_env-citytone.ogg><742.9431><372.7988><0.5541329><1, 
+FadePalette: 2, 0.3804348
+BackgroundOffset: 0,-2106.084

@@ -1,0 +1,18 @@
+//inherits from the general parent (Default_MSC doesn't require MSC to use)
+Parent: AtC_Default_Vanilla
+
+atmosphereColor:
+//B7967D
+//f2b05e
+//e39c7a
+
+//remove some structures and add them back at slightly different depths for better layering
+DistantBuilding: ovuhous0alt, -100, -2000, 10, -15 : anchor|0.5,-1.02
+DistantBuilding: ovuhous1, -100, -2100, 15, -150 : anchor|0.5,-1.02
+DistantBuilding: atc_retainingwall, -400, -2500, 20, 50 : anchor|0.5,-1.02
+
+//DistantBuilding: ovuhous1, 1, -800, 21, 1
+
+
+//Building: city2, 150, -95220, 420.5, 2 : anchor|0.5,-0.02
+//Building: ovuhous0, 10, -2000, 21, 1 : anchor|0.5,-0.02

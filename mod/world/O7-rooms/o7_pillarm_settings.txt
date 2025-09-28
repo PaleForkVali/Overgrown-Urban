@@ -1,0 +1,9 @@
+Clouds: 0.4456522
+BkgDroneVolume: 0.2938631
+Palette: 30
+EffectColorA: 0
+EffectColorB: 2
+Effects: Fog-0.2173913-20-20, Darkness-0.2391304-40-40, 
+PlacedObjects: CustomDecal><75.66724><179.6098><-94~285~400~371~442~25~476~39~0.4130435~1~0~pink tag~0.2173913~0~0.4565217~0.6630435~0~0~0.3043478~0.5652174, 
+FadePalette: 2, 0.6956522
+MorePalette0: 3, 0

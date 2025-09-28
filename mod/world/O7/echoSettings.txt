@@ -1,0 +1,9 @@
+(Yellow,White)priming : true
+(Red)priming : false
+size : 1
+radius : 3
+echosong : CC
+room : O7_ECHO
+defaultflip : -1.0
+#saint priming makes the priming effect flash when entering the region
+(Saint)priming : saint

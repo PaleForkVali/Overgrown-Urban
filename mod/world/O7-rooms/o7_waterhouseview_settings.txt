@@ -1,0 +1,7 @@
+Template: O7_SettingsTemplate_Outside
+BkgDroneVolume: 0.3043478
+BkgDroneNoThreatVolume: 1
+FadePalette: 2, 0.4891304, 0.5652174
+MorePalette0: 10, 0.3695652, 0
+BackgroundOffset: 0,700
+BackgroundType: aboveurban

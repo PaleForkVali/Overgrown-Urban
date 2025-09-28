@@ -1,0 +1,4 @@
+Template: o7_settingstemplate_outside
+Clouds: 0.04347826
+PlacedObjects: GhostSpot><243.8999><417.8824><, LightSource><969.2397><771.1997><0.3913043~Environment~-784~-742~-812.9999~-277.3975~1~1~None~0~0, 
+FadePalette: 2, 0.4995245

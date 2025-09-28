@@ -1,0 +1,12 @@
+Template: NONE
+Clouds: 0.3152174
+Grime: 0.05434782
+WaterReflectionAlpha: 1
+Palette: 53
+EffectColorA: 4
+EffectColorB: 10
+Effects: WaterDepth-0-901-61, LightRain-0.4782609-299-78, ReflectiveWater-0.5217391-399-144-Alpha:61.97824-LerpAngle:58.47825, SkyAndLightBloom-0-30-30, LightBurn-0-20-20, SkyBloom-0.9891304-21-129, SkyDandelions-0.1847826-20-71, 
+PlacedObjects: LightSource><485.9413><626.0585><1~Environment~-683~-138~265~-370.3975~1~1~None~0~0, ColouredLightSource><449.4311><650.5848><180~-322~FFFFFF~474^-34~0.7065217~True~0.5~0~0.5~Always~0~100, DandelionPatch><128.7><574.2504><0~100, DandelionPatch><757.1986><364.9766><-60~21, PlacedWaterfall><656.1987><304.5567><100~50~1.39131~1, KarmaFlower><530.3145><108.8246><0~0~5~7, ColouredLightSource><713.0295><128.5522><-271~93.99998~00FF87~-66^69~0.4347826~True~0.5~0~0.5~Always~0~100, ColouredLightSource><366.8191><145.6648><100~50~00FF87~66^58~0.4347826~True~0.5~0~0.5~Always~0~100, ColouredLightSource><227.6049><504.6124><73~39~00FF7D~117^11~0.2065217~True~0.5~0~0.5~Always~0~100, ColouredLightSource><729.8113><472.3096><100~50~00FF78~89^69~0.2282609~True~0.5~0~0.5~Always~0~100, InsectGroup><296.1848><395.6733><0~100~0~0~RedSwarmer~0.1413043, CustomDecal><85.02765><293.5519><-17~307~186~316~173~-20~-274~-82~0~1~0~rust2~0.3369565~0~0.3369565~0~0.3369565~0~0.3369565~0, CustomDecal><699.1786><225.6601><-35~243~167~250~118~-13~-36~-89~0.0326087~1~0~rust2~0.3043478~0~0.3043478~0~0.3043478~0~0.3043478~0, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><750.5489><474.8061><0.5><1, 
+FadePalette: 3, 0.8043478
+MorePalette0: 2, 0.5652174

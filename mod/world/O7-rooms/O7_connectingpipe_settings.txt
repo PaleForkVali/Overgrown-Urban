@@ -1,0 +1,10 @@
+RainIntensity: 1
+Clouds: 0.3043478
+Grime: 0.1956522
+BkgDroneVolume: 0.3043478
+BkgDroneNoThreatVolume: 1
+EffectColorA: 0
+EffectColorB: 2
+Effects: Darkness-0-40-40, 
+PlacedObjects: DangleFruit><245.9884><565.0004><0~0~2~3, DangleFruit><392.9225><529.1112><0~0~2~3, SuperStructureFuses><578.743><148.7449><67.74683~56.35556, SuperStructureFuses><575.8959><251.0857><75.57294~51.37778, InsectGroup><285.0846><320.3177><0~100~0~0~Beetle~0.2293363, 
+MorePalette0: 2, 0.3152174

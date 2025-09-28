@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Thunder
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.5108696
+Grime: 0.25
+Palette: 108
+EffectColorA: 14
+EffectColorB: 2
+Effects: SandStorm-1-20-20, Darkness-0.08695652-30-30, 
+PlacedObjects: ExitSymbolShelter><226.45><110.5003><, NoSpearStickZone><480.7521><236.55><91~242, SnowSource><260.9919><244.4498><Radial~162~141~50~86.60254~1~0.4673913, SnowSource><682.1987><212.2269><Radial~158~126~50~86.60254~1~0.4673913, 
+AmbientSounds: SPOT><AM_IND-ElectricHum01.ogg><683.9251><292.6534><0.5><1><394.9251><242.6534><-39.35535><-75.35535><0><0.1, SPOT><AM_IND-ElectricHum01.ogg><756.4133><295.1802><0.5><1><576.4133><243.1802><-26.35535><-73.35535><0><0.1, 
+FadePalette: 2, 0.3152174
+WetTerrain: OFF
+MorePalette0: 35, 0.07608695
+MorePalette1: 0, 0.4347826

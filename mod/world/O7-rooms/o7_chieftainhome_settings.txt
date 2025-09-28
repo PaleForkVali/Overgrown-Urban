@@ -1,0 +1,6 @@
+RainIntensity: 0
+RumbleIntensity: 0.1725427
+Clouds: 1
+Effects: DayNight-1-30-30, Darkness-0.3028418-43-85, SkyDandelions-0-20-20, 
+PlacedObjects: DayNightSettings><109.0038><501.3851><5~8.660254~23~10, TradeOutpost><438.6791><396.6029><0~100, HangingPearls><310.8464><530.551><, LanternOnStick><376.7396><462.9156><46.24478~-161.6889, LightBeam><353.8033><367.7863><-157~6~-137~47~7~33~-290~-163~0.4326089~0~0~1~None~0~0, CustomDecal><78.80502><171.4554><48~418~1036~482~1038~-5~360~-182~0.6521739~1~0~o7 - scavtreasurelayer3~0.7173913~0~0.7173913~0~0.7173913~0~0.7173913~0, CustomDecal><164.6844><287.1726><19~294~574~246~472~-59~-245~-307~0~0.08695652~0~o7 - scavtool1layer1~0.5~0~0.5~0~0.5~0~0.5~0, UniqueDataPearl><387.8001><358.1099><0~0~0~0~SI_west~0, 
+FadePalette: 2, 0.510394

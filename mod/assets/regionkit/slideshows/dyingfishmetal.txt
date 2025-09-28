@@ -1,0 +1,13 @@
+SHADER Basic
+DELAY 10
+INTERPOLATE Quadratic [XY]
+CONTAINER Midground
+START
+dyingfishmetal01, 80
+dyingfishmetal02, 10
+dyingfishmetal03, 10
+dyingfishmetal04, 120
+dyingfishmetal03, 10
+dyingfishmetal02, 10
+dyingfishmetal01, 80
+LOOP

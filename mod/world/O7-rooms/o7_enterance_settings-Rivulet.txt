@@ -1,0 +1,8 @@
+Template: O7_SettingsTemplate_Outside
+Grime: 0.25
+Palette: 2
+EffectColorA: 4
+Effects: SkyDandelions-0.08695652-30-30, Darkness-0.3093302-636.1229-482.9333, Contrast-0.05413288-928.6116-417.6, LightRain-0.4021286-912.1688-484.3556, 
+PlacedObjects: DandelionPatch><527.3303><189.6059><0~100, DandelionPatch><277.6556><480.6256><0~100, BetterDecal><782.0526><395.7825><-50~-63~-43~147~72~148~74~-67~-381~-20~True~LIGHT~LIGHT~LIGHT~0~1~1~False~True~False~True~False~False~ovu - citycolor~1~1~1~1~1~0~1~1~1~1~1~0~1~1~1~1~1~0~1~1~1~1~1~0, BetterDecal><610><392><-55~-77~-43~147~72~149~74~-67~168~-250~True~DIFF~NORMAL~NORMAL~0~1~0~False~True~False~True~False~False~ovu - citycolor~1~1~0~1~1~0~1~1~0~1~1~0~1~1~0~1~1~0~1~1~0~1~1~0, BetterDecal><491.304><257.9603><-31~-95~-80~135~369~274~367~-50~-488~-48~False~MUL~SCREEN~NORMAL~0.1195652~1~0~True~False~False~True~False~False~greysnoopy~0.5~0.1956522~0~1~1~1~0.5~0.1956522~0~1~1~1~0.5~0.1956522~0~1~1~1~0.5~0.1956522~0~1~1~1, BetterDecal><200.5713><487.0898><-123~-126~-80~130~190~195~206~-101~-407~-76~False~MUL~SCREEN~NORMAL~0.1956522~1~0~True~False~False~True~True~True~pr~0.5~0.173913~0~1~1~1~0.5~0.173913~0~1~1~1~0.5~0.173913~0~1~1~1~0.5~0.173913~0~1~1~1, 
+FadePalette: 18, 0.3695652
+BackgroundOffset: 0,80.43349

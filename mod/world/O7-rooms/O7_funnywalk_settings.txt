@@ -1,0 +1,9 @@
+Template: NONE
+CeilingDrips: 0.4130435
+Grime: 0.0326087
+Palette: 263
+EffectColorA: 5
+EffectColorB: 2
+Effects: Darkness-0-20-20, 
+PlacedObjects: PlacedWind><581.4053><47.57384><-1~205~161~204~138~4~1~Creatures~Vertical, PlacedWind><219.6627><48.86627><-20~204~135~201~138~-1~1~Creatures~Vertical, PlacedWind><382.6998><44.74034><-6~207~168~204~170~3~1~Creatures~Vertical, ParticleVisualCustomizer><454.8008><174.9822><-649~-356~FFFFFF~000000~FFFFFF~000000~4^364~Foreground~SkyDandelion~False~1~0~30~0~20~0~Basic~1~1, RectParticleSpawner><583.0533><49.21339><212~252~136^20~1^52~7~3~3~0~40~0~4~0~0~5~3~False, RectParticleSpawner><403.3308><54.43294><-37~241~139^19~-1^51~7~3~3~0~40~0~4~0~0~5~3~False, RectParticleSpawner><220.0795><59.14546><-185~213~139^17~-1^40~7~3~3~0~40~0~4~0~0~5~3~False, SlideShow><375.4316><50.68797><100~50~slugsleep~0;0^191;-2^192;36^-3;39, SlideShow><210><52><100~50~slugsleep~0;0^161;-2^161;38^-3;39, SlideShow><571><52><100~50~slugsleep~0;0^161;-2^161;38^-3;39, CustomDecal><423.3718><110.8414><4~182~97~184~86~-2~-454~-1.999985~0~1~0~rust1~0.3478261~0~0.3478261~0~0.3478261~0~0.3478261~0, CustomDecal><593><116><4~182~97~184~94~-2~-454~-1.999985~0~1~0~rust1~0.2608696~0~0.2608696~0~0.2608696~0~0.2608696~0, 
+FadePalette: 2, 0.1413043

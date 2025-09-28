@@ -1,0 +1,22 @@
+DangerType: Rain
+CeilingDrips: 0.5
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.75
+WaveLength: 0.5
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.5326087
+Grime: 0.5
+BkgDroneVolume: 0.3
+BkgDroneNoThreatVolume: 1
+RandomItemDensity: 0.5
+RandomItemSpearChance: 0.2
+WaterReflectionAlpha: 1
+Palette: 30
+EffectColorA: 3
+EffectColorB: 2
+Effects: MossWaterRGB-0-702.4865-454-Red:131.4867-Height:1-Green:122.3554-Blue:104.2435, Darkness-0.2242639-70-70, MossWater-1-50-50, MurkyWater-1-59-110, Fog-0.423913-20-20, WaterGlowworm-0.1413043-30-30, Flies-0.1304348-40-40, 
+AmbientSounds: OMNI><AM_WAT-Lakeside.ogg><716.6989><200.6933><0.5><1, OMNI><AM_WAT-Sea01.ogg><471.665><236.8871><0.4891304><1, OMNI><AM_WAT-Shoreline.ogg><682.8334><271.5682><0.3152174><1, 
+FadePalette: 2, 0.6521739

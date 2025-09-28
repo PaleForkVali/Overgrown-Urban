@@ -1,0 +1,12 @@
+﻿{
+  "id": "vali_overgrownurban",
+  "name": "Overgrown Urban (playtest v0.1)",
+  "version": "1.0.1",
+  "authors": "Vali",
+  "description": "region playest 0.1",
+  "requirements": [ "crs", "regionkit", "lb-fgf-m4r-ik.modpack", "ludocrypt.betterdecals" ],
+  "requirements_names": [ "Custom Region Support", "RegionKit", "TheM4rblelous Entity Pack", "BetterDecals" ],
+  "checksum_override_version": false,
+  "priorities": [ "moreslugcats", "themast", "underpass_will" ],
+  "tags": [ "cosmetics" ]
+}

@@ -1,0 +1,3 @@
+[ADD]O7_Pearl : fac100 : c9b983 : O7_Prototype
+[ADD]O7_Pearl_Moss : cb1b55 : d5d5d5 : Moss Pearl
+[ADD]O7_Pearl_Storage : 8cff72 : d5d5d5 : Storage Complex Pearl

@@ -1,0 +1,22 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.5217391
+Grime: 0.1956522
+BkgDroneVolume: 0
+Palette: 264
+EffectColorA: 7
+EffectColorB: 2
+Effects: Darkness-0.2282609-35-126, Flies-0.08695652-37-66, Coldness-0.9673913-301-125, 
+PlacedObjects: LightSource><272.067><196.1693><0.09782609~Environment~378~303~50~86.60254~1~1~None~0~0, CommonGateData><486.8><250.4992><264~79~False~True~True~True~False~False~False~False~0~1~1, ExitSymbolShelter><229.0671><390.1692><, BlinkingFlower><154.1092><263.1421><, BlinkingFlower><787.3817><267.8494><, BlinkingFlower><769.0502><216.0083><, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><864.061><607.3152><0.3043478><1, OMNI><AM_IND-Factory01.ogg><684.4632><604.0534><0.173913><1, OMNI><AM_ENV-SubTerr.ogg><862.549><525.3061><0.3369565><0.9217392, 
+FadePalette: 3, 0.2065217
+WetTerrain: OFF
+MorePalette0: 336, 0.2282609

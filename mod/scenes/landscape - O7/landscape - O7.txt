@@ -1,0 +1,8 @@
+backdrop : 8
+background : 7
+clouds : 6
+midground : 5
+flies : 4
+foreground : 3
+cloudsFG : 2
+

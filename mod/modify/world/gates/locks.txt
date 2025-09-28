@@ -1,0 +1,4 @@
+[ADD]GATE_O7_TM : 4 : 3
+[ADD]GATE_O7_TX : 3 : 3
+[ADD]GATE_O7_O8 : 2 : 5
+[ADD]GATE_O7_AB : 1 : 1

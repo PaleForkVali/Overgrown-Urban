@@ -1,0 +1,8 @@
+SHADER AlphaLevelColor
+DELAY 10
+INTERPOLATE Quadratic [XY]
+CONTAINER Foreground
+START
+slugsleep01, 15
+slugsleep02, 15
+LOOP

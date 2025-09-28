@@ -1,0 +1,110 @@
+Palette: 2
+RainIntensity: 100
+RumbleIntensity: 100
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+
+overseersSpawnChance: 0.5
+overseersMin: 0
+overseersMax: 4
+playerGuideOverseerSpawnChance: 0.5
+overseersColorOverride(3): 0.1 //idle SRS overseers can be found rarely
+overseersColorOverride(5): 1 //the default idle overseer will be purple
+overseersColorOverride(0.1, 0.2, 0.1): 0.4 //dark grey overseers can be found
+
+pupSpawnChance: 0.3
+Subregion: Overgrown Urban
+Subregion: Sewer Swampland
+Subregion: Sunscorched Trainway
+Subregion: Skyhigh Column of Countless Generations
+Room Setting Templates: Inside, Outside, Lush, Above, Swamp, Swampinside
+Room_Attr: O7_TM01: PinkLizard-Forbidden,Scavenger-Avoid,
+Room_Attr: O7_TM02: PinkLizard-Stay,
+Room_Attr: O7_TM03: PinkLizard-Avoid,Centipede-Stay,
+Room_Attr: O7_TM04: Scavenger-Like,
+Room_Attr: O7_thethreepipes: StandardGroundCreature-Like,Vulture-Forbidden,BrotherLongLegs-Like,Centipede-Like,BigSpider-Like,SpitterSpider-Like,Hoverfly-Forbidden,
+Room_Attr: O7_megawallvents: StandardGroundCreature-Stay,PinkLizard-Stay,Vulture-Like,BrotherLongLegs-Stay,BigSpider-Stay,SpitterSpider-Stay,KingVulture-Forbidden,Hoverfly-Like,
+Room_Attr: O7_wallventinside: Hoverfly-Forbidden,
+Room_Attr: O7_CS0: PinkLizard-Like,Vulture-Like,Hoverfly-Like,
+Room_Attr: O7_CS1: YellowLizard-Forbidden,Vulture-Like,Hoverfly-Like,
+Room_Attr: O7_CS2: YellowLizard-Avoid,Vulture-Like,Hoverfly-Like,
+Room_Attr: O7_distantview: StandardGroundCreature-Forbidden,YellowLizard-Forbidden,Vulture-Like,CicadaA-Forbidden,CicadaB-Forbidden,Centiwing-Forbidden,KingVulture-Forbidden,Hoverfly-Like,
+Room_Attr: O7_CS4: YellowLizard-Stay,Vulture-Avoid,Hoverfly-Avoid,
+Room_Attr: O7_S01: StandardGroundCreature-Forbidden,PinkLizard-Forbidden,BrotherLongLegs-Forbidden,Centipede-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: O7_S05: Vulture-Forbidden,Hoverfly-Forbidden,
+Room_Attr: O7_CS5: YellowLizard-Stay,Hoverfly-Forbidden,
+Room_Attr: O7_CS6: YellowLizard-Stay,
+Room_Attr: O7_dysonfan: StandardGroundCreature-Like,YellowLizard-Avoid,Vulture-Forbidden,CicadaA-Like,CicadaB-Like,BrotherLongLegs-Like,Centipede-Like,Centiwing-Like,Scavenger-Like,BigSpider-Like,SpitterSpider-Like,BigNeedleWorm-Stay,KingVulture-Forbidden,Hoverfly-Like,
+Room_Attr: O7_dysonfan2: StandardGroundCreature-Like,YellowLizard-Forbidden,Vulture-Forbidden,BrotherLongLegs-Like,Centipede-Like,Scavenger-Like,BigSpider-Like,SpitterSpider-Like,BigNeedleWorm-Like,KingVulture-Forbidden,Hoverfly-Like,AlphaOrange-Forbidden,
+Room_Attr: O7_dysoninside: WhiteLizard-Like,Vulture-Forbidden,Scavenger-Like,BigNeedleWorm-Like,Hoverfly-Forbidden,AlphaOrange-Forbidden,
+Room_Attr: O7_PR01: Vulture-Like,Scavenger-Like,Hoverfly-Like,AlphaOrange-Avoid,
+Room_Attr: O7_TRADER: Hoverfly-Forbidden,AlphaOrange-Avoid,
+Room_Attr: O7_weirdfans: Vulture-Like,Hoverfly-Forbidden,
+Room_Attr: O7_PR02: Vulture-Like,Hoverfly-Like,AlphaOrange-Avoid,
+Room_Attr: O7_workinprogress: Vulture-Like,Scavenger-Like,Hoverfly-Like,
+Room_Attr: O7_abovedyson: YellowLizard-Forbidden,Vulture-Avoid,Scavenger-Like,Hoverfly-Like,AlphaOrange-Forbidden,
+Room_Attr: O7_waterhouse1: Hoverfly-Forbidden,
+Room_Attr: O7_waterhouse2: Hoverfly-Forbidden,AlphaOrange-Forbidden,
+Room_Attr: O7_waterhouse3: Hoverfly-Forbidden,AlphaOrange-Forbidden,
+Room_Attr: O7_waterhouseroof: Vulture-Like,Hoverfly-Like,AlphaOrange-Forbidden,
+Room_Attr: O7_GLOWSIGN: Hoverfly-Like,AlphaOrange-Forbidden,
+Room_Attr: O7_thethreepipes2: Scavenger-Like,Hoverfly-Forbidden,
+Room_Attr: O7_dysonfanbottom: Vulture-Like,Centipede-Forbidden,Scavenger-Like,Hoverfly-Like,
+Room_Attr: O7_wall: Vulture-Like,Hoverfly-Like,
+Room_Attr: O7_wallafter: Scutigera-Like,Hoverfly-Forbidden,
+Room_Attr: O7_wallafter2: GreenLizard-Forbidden,Vulture-Forbidden,Scavenger-Avoid,
+Room_Attr: O7_DF06: Vulture-Avoid,Scutigera-Avoid,
+Room_Attr: O7_DF07: Hoverfly-Forbidden,
+Room_Attr: O7_waterhousepour: YellowLizard-Forbidden,AlphaOrange-Forbidden,
+Room_Attr: O7_waterhousepour2: YellowLizard-Forbidden,WhiteLizard-Like,Vulture-Like,AlphaOrange-Forbidden,
+Room_Attr: O7_S02: AlphaOrange-Forbidden,
+Room_Attr: O7_TH01: YellowLizard-Avoid,Scavenger-Forbidden,AlphaOrange-Forbidden,
+Room_Attr: O7_TH02: YellowLizard-Forbidden,WhiteLizard-Like,AlphaOrange-Forbidden,
+Room_Attr: O7_TH09: DropBug-Stay,AlphaOrange-Forbidden,
+Room_Attr: O7_TH03: PinkLizard-Like,Hoverfly-Forbidden,
+Room_Attr: O7_TH04: PinkLizard-Forbidden,BlueLizard-Forbidden,YellowLizard-Stay,WhiteLizard-Avoid,Scavenger-Forbidden,BigNeedleWorm-Avoid,DropBug-Forbidden,AlphaOrange-Stay,
+Room_Attr: O7_TH05: Vulture-Like,Hoverfly-Like,
+Room_Attr: O7_TH06: PinkLizard-Forbidden,BlueLizard-Forbidden,YellowLizard-Like,Vulture-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Centiwing-Forbidden,Scavenger-Forbidden,KingVulture-Forbidden,
+Room_Attr: O7_TH07: YellowLizard-Avoid,AlphaOrange-Forbidden,
+Room_Attr: O7_TH08: YellowLizard-Forbidden,WhiteLizard-Forbidden,Scavenger-Forbidden,BigNeedleWorm-Like,Scutigera-Forbidden,
+Room_Attr: O7_TH10: AlphaOrange-Forbidden,
+Room_Attr: O7_CH01: DropBug-Like,Hoverfly-Forbidden,
+Room_Attr: O7_CHscav: BlueLizard-Forbidden,Vulture-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Centiwing-Forbidden,KingVulture-Forbidden,Hoverfly-Forbidden,FatFireFly-Forbidden,FlyingBigEel-Forbidden,MiniFlyingBigEel-Forbidden,
+Room_Attr: O7_RH02: PinkLizard-Like,
+Room_Attr: O7_RH04: YellowLizard-Forbidden,Vulture-Like,Scavenger-Like,
+Room_Attr: O7_RH05: YellowLizard-Forbidden,
+Room_Attr: O7_RH06: Hoverfly-Forbidden,
+Room_Attr: O7_CHIEFTAINHOME: PinkLizard-Forbidden,
+Room_Attr: O7_S04: YellowLizard-Forbidden,
+Room_Attr: O7_wormroof: Vulture-Avoid,KingVulture-Avoid,
+Room_Attr: O7_BH01: CicadaA-Avoid,CicadaB-Avoid,BigNeedleWorm-Like,
+Room_Attr: O7_3HOUSES: YellowLizard-Forbidden,Vulture-Like,Scavenger-Avoid,BigNeedleWorm-Like,Hoverfly-Like,
+Room_Attr: O7_S03: CicadaA-Forbidden,CicadaB-Forbidden,
+Room_Attr: O7_elevatorshaft: Vulture-Forbidden,CicadaA-Like,CicadaB-Like,KingVulture-Forbidden,
+Room_Attr: O7_SWfish: Salamander-Avoid,Leech-Avoid,SeaLeech-Avoid,Vulture-Avoid,JetFish-Avoid,BigEel-Avoid,KingVulture-Forbidden,Polliwog-Avoid,MiniLeviathan-Avoid,WaterSpitter-Avoid,WaterBlob-Avoid,HazerMom-Avoid,MoleSalamander-Avoid,MiniBlackLeech-Avoid,CommonEel-Avoid,DivingBeetle-Avoid,
+Room_Attr: O7_SWP01: Salamander-Like,Leech-Like,SeaLeech-Like,JetFish-Like,BigEel-Like,Polliwog-Like,MiniLeviathan-Like,WaterSpitter-Like,WaterBlob-Like,HazerMom-Like,MoleSalamander-Like,MiniBlackLeech-Like,CommonEel-Like,DivingBeetle-Like,
+Room_Attr: O7_SWP02: Salamander-Like,Leech-Like,SeaLeech-Like,CicadaA-Forbidden,JetFish-Like,BigEel-Like,Polliwog-Like,MiniLeviathan-Like,WaterSpitter-Like,WaterBlob-Like,HazerMom-Like,MoleSalamander-Like,MiniBlackLeech-Like,CommonEel-Like,DivingBeetle-Like,
+Room_Attr: O7_SWborder: CicadaA-Forbidden,
+Room_Attr: O7_SW03: Vulture-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Centiwing-Forbidden,KingVulture-Forbidden,Hoverfly-Forbidden,FatFireFly-Forbidden,FlyingBigEel-Forbidden,MiniFlyingBigEel-Forbidden,
+Room_Attr: O7_SW04: Vulture-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Centiwing-Forbidden,KingVulture-Forbidden,Hoverfly-Forbidden,FatFireFly-Forbidden,FlyingBigEel-Forbidden,MiniFlyingBigEel-Forbidden,
+Room_Attr: O7_SW05: Hoverfly-Forbidden,
+Room_Attr: O7_BALL: YellowLizard-Stay,Vulture-Like,Scavenger-Avoid,Hoverfly-Stay,AlphaOrange-Stay,
+Room_Attr: O7_GREENHOUSE: SmallNeedleWorm-Stay,BigNeedleWorm-Stay,
+Room_Attr: O7_BHview: Vulture-Forbidden,
+Room_Attr: O7_BHview2NEW: Vulture-Forbidden,
+Room_Attr: O7_SKYSHELTER: Vulture-Forbidden,
+Room_Attr: O7_BHmur02: SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: O7_BHmur03: Hoverfly-Forbidden,
+Room_Attr: O7_BH02: SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: O7_BH06: Vulture-Like,Scavenger-Stay,Hoverfly-Like,
+Room_Attr: O7_BH07: Vulture-Avoid,
+Room_Attr: O7_BH08: Hoverfly-Avoid,
+Room_Attr: O7_BHbox: Scavenger-Like,
+Room_Attr: O7_BHflyroom: Vulture-Like,Hoverfly-Forbidden,
+Room_Attr: O7_BH09: Hoverfly-Forbidden,
+Room_Attr: O7_BH10: Vulture-Like,Hoverfly-Stay,
+Room_Attr: O7_memory: Vulture-Like,
+Room_Attr: O7_noideas: Vulture-Like,
+Room_Attr: O7_noideas2: Vulture-Like,

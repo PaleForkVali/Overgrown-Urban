@@ -1,0 +1,8 @@
+Template: o7_settingstemplate_outside
+Grime: 0.25
+Palette: 2
+EffectColorA: 4
+Effects: SkyDandelions-0.08695652-30-30, 
+PlacedObjects: DandelionPatch><527.3303><189.6059><0~100, DandelionPatch><277.6556><480.6256><0~100, BetterDecal><491.304><257.9603><-31~-95~-80~135~369~274~367~-50~-488~-48~False~MUL~SCREEN~NORMAL~0.1195652~1~0~True~False~False~True~False~False~greysnoopy~0.5~0.1956522~0~1~1~1~0.5~0.1956522~0~1~1~1~0.5~0.1956522~0~1~1~1~0.5~0.1956522~0~1~1~1, BetterDecal><200.5713><487.0898><-123~-126~-80~130~190~195~206~-101~-407~-76~False~MUL~SCREEN~NORMAL~0.1956522~1~0~True~False~False~True~True~True~pr~0.5~0.173913~0~1~1~1~0.5~0.173913~0~1~1~1~0.5~0.173913~0~1~1~1~0.5~0.173913~0~1~1~1, DangleFruit><586.5894><262.5711><0~0~2~3, DangleFruit><635.642><370.6091><0~0~2~3, 
+FadePalette: 18, 0.3695652
+BackgroundOffset: 0,80.43349

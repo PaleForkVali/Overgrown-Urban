@@ -1,0 +1,1 @@
+PlacedObjects: ExitSymbolShelter><726.1281><106.4482><, ExitSymbolShelter><222.6766><381.5595><, LightSource><389.4063><292.6082><0.326087~Environment~108.0468~115~50~86.60254~1~1~None~0~0, LightSource><569><294><0.3478261~Environment~108.0468~115~50~86.60254~1~1~None~0~0, 

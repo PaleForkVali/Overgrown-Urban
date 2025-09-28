@@ -1,0 +1,15 @@
+TH_DL1 - Kicks : NEUTRAL, DANGER <PA>
+TH_DL1 - Shaker : NEUTRAL, DANGER
+TH_DL1 - BassSub : NEUTRAL, DANGER
+TH_DL1 - ArpLow : NEUTRAL, DANGER
+TH_DL1 - ArpHigh : NEUTRAL, DANGER <PA>
+TH_DL1 - HighThreat : DANGER <PA>
+TH_DL1 - Toms : NEUTRAL <PA>
+
+Layer : TH_DL1 - Kicks
+Layer : TH_DL1 - Kicks, TH_DL1 - BassSub
+Layer : TH_DL1 - Kicks, TH_DL1 - BassSub, TH_DL1 - ArpLow
+Layer : TH_DL1 - Kicks, TH_DL1 - BassSub, TH_DL1 - ArpLow, TH_DL1 - Shaker
+Layer : TH_DL1 - Kicks, TH_DL1 - BassSub, TH_DL1 - ArpLow, TH_DL1 - ArpHigh, TH_DL1 - Shaker
+Layer : TH_DL1 - Kicks, TH_DL1 - BassSub, TH_DL1 - ArpLow, TH_DL1 - ArpHigh, TH_DL1 - Shaker, TH_DL1 - Toms, TH_DL1 - HighThreat
+

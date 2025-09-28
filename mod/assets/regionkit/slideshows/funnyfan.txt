@@ -1,0 +1,8 @@
+SHADER AlphaLevelColor
+DELAY 1
+INTERPOLATE Quadratic [XY]
+CONTAINER Foreground
+START
+funnyfan01, 0,1
+funnyfan02, 0,1
+LOOP

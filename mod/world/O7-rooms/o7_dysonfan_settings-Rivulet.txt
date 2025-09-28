@@ -1,0 +1,11 @@
+Template: O7_SettingsTemplate_Outside
+RainIntensity: 1
+RumbleIntensity: 1
+Clouds: 0.3695652
+Palette: 30
+Effects: Fog-0.3093297-50-50, AboveCloudsView-1-20-20, Wasp-0.1195652-30-30, Darkness-0.3015964-664.6604-465.2444, Hue-0.958922-666.8739-386.4, Contrast-0.05413288-933.7104-392.8444, LightRain-0.4098617-933.5917-458.8444, 
+PlacedObjects: NeedleEgg><546.7697><425.301><0~0~4~9, NeedleEgg><269.9313><223.5844><0~0~4~9, LightSource><378.83><707.8947><0.2608696~Environment~41~-344~50~86.60254~1~1~None~0~0, InsectGroup><341.8142><153.6762><0~100~0~0~Wasp~0.2283345, LightSource><210.1318><211.6505><0.1633473~White~22~155~50~86.60254~0~0~None~0~1, LightSource><567.438><614.4318><0.3478261~White~2~134~50~86.60254~0~0~None~0~1, LightSource><363.3005><338.4878><0.3586957~EffectColor1~0~100~50~86.60254~0~0~None~0~0, LightSource><517.3693><489.6514><0.3586957~EffectColor1~0~100~50~86.60254~0~0~None~0~0, DandelionPatch><429.0428><99.17871><0~100, DandelionPatch><301.28><622.4478><0~100, LightSource><369.0001><174><0.1956495~EffectColor1~0~100~50~86.60254~0~0~None~0~0, CustomDecal><167.2866><574.4483><180~102~317~-358~69~-439~-275.0062~-242~0.1637222~1~0~rkskull~0.2824322~0.1957305~0.2176587~0.1957305~0.5~0.1957305~0.1953331~0.1957305, CustomDecal><438.6868><416.4285><47~206~439~114~351~-99~-395.9761~-131~0.2827454~1~0~pr~0.3913043~0.4456522~1~0.2282609~0.326087~0.4021739~0.6086399~0, DayNightSettings><225.5912><270.8784><5~8.660254~10~31, UniqueDataPearl><545.6113><602.5839><40~10~0~0~O7_Pearl~0, CustomDecal><385.3412><546.6216><-2~259~300~266~332~-2~-431~-194~0.6739131~1~0~ovu - citycolor~0.5~0~0.5~0~0.5~0~0.5~0, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>na_02 - dustcloud<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>845.6807<tB>421.1876<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>16.68073<tB>522.1876<tA>handlePos<tB>14.64465<tB>-110.3553, 
+FadePalette: 2, 0.5978261
+BackgroundOffset: 0,491.3062
+BackgroundType: aboveurban

@@ -1,0 +1,12 @@
+Template: NONE
+Clouds: 0.1521739
+Grime: 0.2282609
+BkgDroneNoThreatVolume: 1
+Palette: 2
+EffectColorA: 4
+EffectColorB: 15
+Effects: Contrast-0-20-20, SkyDandelions-0.5434783-30-30, 
+PlacedObjects: InsectGroup><2575.856><292.4198><0~100~0~0~RockFlea~0.09782609, DandelionPatch><1767.014><172.9495><0~100, DandelionPatch><2913.279><197.9479><10~122, CustomDecal><1992.636><237.8533><-66~335~556~407~580~20~-51~-106~0~1~0~angularwhiteols~0.5217391~0~0.5217391~0.423913~0.5217391~0~0.5217391~0, CustomDecal><1639.96><209.446><53~194~397~160~315~-85~-442~3~0.2282609~1~0~bluebrownbutblackwhite~0.3695652~0.1521739~0.3695652~0.1521739~0.3695652~0.5543478~0.3695652~0.1521739, CustomDecal><3232.063><151.3222><6~250~70~243~40~0~-327~0~0~1~0~cactusman~0.5326087~0.2065217~0.5326087~0.2065217~0.5326087~0.2065217~0.5326087~0.2065217, DandelionPatch><844.3605><228.6432><35~164, CustomDecal><455.0737><253.4055><16~199~699~109~643~-133~-369~-91~0.1630435~1~0~verybigsimple~0.3804348~0.4347826~0.3804348~0~0.3804348~0.9130435~0.3804348~0, DandelionPatch><3676.441><604.0594><124~62, DandelionPatch><189.6735><554.4349><111~99, 
+AmbientSounds: OMNI><am_env-lightwind.ogg><667.4225><406.6488><0.2826087><1, OMNI><am_env-natwind.ogg><752.5414><480.4457><0.3043478><1, OMNI><am_env-outside.ogg><560.7839><489.6971><0.4130435><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>illegible neon signs<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>6<eA>fadeIn<eB>123.913<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>944.6956<tB>485.6319<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>3257.803<tB>720.8319<tA>handlePos<tB>-61.67932<tB>-154.1109, 
+FadePalette: 18, 0.3586957, 0.3586957, 0.3586957, 0.3478261

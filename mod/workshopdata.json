@@ -1,0 +1,18 @@
+{
+  "Title": "Overgrown Urban MAST CONNECTION (playtest v0.7)",
+  "Description": "region playest 0.7)\r\n\r\nadded MAST CONNECTION",
+  "ID": "vali_overgrownurban",
+  "Version": "1.0.5",
+  "TargetGameVersion": "v1.9.06",
+  "Requirements": "crs,regionkit,lb-fgf-m4r-ik.modpack,ludocrypt.betterdecals",
+  "RequirementNames": "Custom Region Support,RegionKit,TheM4rblelous Entity Pack,BetterDecals",
+  "Authors": "Vali",
+  "Visibility": "Unlisted",
+  "Tags": [
+    "Arenas",
+    "Regions"
+  ],
+  "WorkshopID": 3441930413,
+  "UploadFilesOnly": false,
+  "UploadThumbnail": false
+}
