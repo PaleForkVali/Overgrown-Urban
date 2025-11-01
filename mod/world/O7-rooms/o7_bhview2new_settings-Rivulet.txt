@@ -1,0 +1,16 @@
+Template: o7_settingstemplate_rainouts
+RainIntensity: 0.2040306
+RumbleIntensity: 0.2065217
+Clouds: 0.1086956
+BkgDroneVolume: 0
+EffectColorA: 7
+Effects: AboveCloudsView-1-20-20, DayNight-1-30-30, Fog-0.4407947-40-40, Darkness-0-50-50, 
+PlacedObjects: CustomDecal><407.166><118.8885><1~53~616~46~618~-3~-403~127~0~1~0~o7 - columndecal~0.2391304~0.3043478~0.5~0~0.3043478~1~0.5~0, InsectGroup><388.6817><495.5836><5~51~0~0~Moth~0.1630435, InsectGroup><964.3113><535.8162><6~75~0~0~Moth~0.3043477, SuperStructureFuses><1068.698><125.0269><103~64, SuperStructureFuses><286.3875><133.1654><84~62, DandelionPatch><947.6979><351.779><0~100, DandelionPatch><445.637><337.8958><20~145, LightSource><466.1565><890.9268><0.1086956~Environment~-346~-720~-250~-301.3975~1~1~None~0~0, LightSource><1125.188><843.9402><0.1304348~Environment~-409~-560~-205~-263.3975~1~1~None~0~0, DayNightSettings><450.5511><415.8067><5~8.660254~23~10, DeadTokenStalk><886.9276><711.8135><-32~-69, GoldToken><618.45><835.7518><50~-49~-214~-249~0~O7stacks~~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0, DeadTokenStalk><829.8489><711.119><20~-65, LightSource><1081.468><748.6974><0.07608695~EffectColor1~-3~78~50~86.60254~0~1~None~0~0, LightSource><756.4089><741.6781><0.2065217~EffectColor1~1~95~50~86.60254~0~1~None~0~0, LightSource><829.6773><596.5926><0.1086957~EffectColor1~0~119~50~86.60254~0~1~None~0~0, LightSource><420.9499><720.506><0.06521739~EffectColor1~1~95~50~86.60254~0~1~None~0~0, 
+AmbientSounds: OMNI><am_win-howlingwnd.ogg><735.6476><504.8651><0.3586957><1, SPOT><so_sfx-data3.ogg><630.051><319.0196><0.5><1><851.051><672.6942><-35.35534><-35.35534><0><0.1, SPOT><so_sfx-datatrans.ogg><506.8933><202.8605><0.1304348><1><674.8933><801.8605><2.644653><-51.35535><0><0.1, OMNI><so_sfx-data2.ogg><727.9091><462.0718><0.5><1, OMNI><am_env-natwind.ogg><433.8481><474.6302><0.2989356><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>o7 - unseen skies<eA>vol<eB>0.3217389<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>26.08696<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>714.4126<tB>356.8665<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>740.4126<tB>502.8665<tA>handlePos<tB>-270.3553<tB>-77.35535, 
+FadePalette: 2, 0.4886549
+MorePalette0: 30, 0.1413043
+MorePalette1: 2, 0.08695652
+MorePalette2: 10, 0.1086956
+BackgroundOffset: -1087,550
+BackgroundType: atc_default_vanilla

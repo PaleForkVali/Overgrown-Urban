@@ -1,0 +1,6 @@
+Template: o7_settingstemplate_rainins
+Palette: 264
+EffectColorA: 7
+PlacedObjects: LightSource><262.2523><511.55><1~EffectColor1~47~48~-308~-182.3975~0~0~None~0~0, LightSource><259><424><1~EffectColor1~47~48~-308~-182.3975~0~0~None~0~0, LightSource><261><511><0.1105864~EffectColor1~47~48~83~61.60248~0~1~None~0~0, LightSource><258><423><0.121456~EffectColor1~47~48~91~44.60248~0~1~None~0~0, 
+AmbientSounds: SPOT><AM_IND-ElectricHum02.ogg><724.8041><280.7901><0.5><1><250.8041><474.7901><-38.35535><-58.35535><0><0.1, 
+FadePalette: 2, 0.1408288

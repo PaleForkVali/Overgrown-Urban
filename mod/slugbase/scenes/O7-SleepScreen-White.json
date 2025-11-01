@@ -1,0 +1,14 @@
+{
+	"id": "O7-SleepScreen-White",
+	"scene_folder": "scenes/O7-SleepScreen-White",
+	"images": [
+		
+	    {"name": "sleep screen - white - flat", "pos": [0,0], "depth": -1.0, "flatmode": true},
+		{ "name": "sleep - 5",  "pos": [672, 236], "depth": 4.0, "shader": "Basic" },
+		{ "name": "sleep - 4",    "pos": [669, 160], "depth": 2.7, "shader": "Basic" },
+		{ "name": "sleep - 3",    "pos": [730, 130], "depth": 2.5, "shader": "Basic" }
+		{ "name": "sleep - 2 - white",    "pos": [677, 63], "depth": 2.3, "shader": "Basic" },
+		{ "name": "sleep - 1",  "pos": [486, 15], "depth": 2.1, "shader": "Basic" }
+	],
+	"idle_depths": [ 2.8 ]
+}

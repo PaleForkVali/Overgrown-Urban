@@ -1,4 +1,0 @@
-Type: AboveCloudsView
-floorLevel: -300
-OffsetY: 5000
-daySky: darkbackground

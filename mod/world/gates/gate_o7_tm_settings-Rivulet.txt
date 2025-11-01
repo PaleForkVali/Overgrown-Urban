@@ -1,0 +1,13 @@
+Template: NONE
+CeilingDrips: 0.08695652
+Clouds: 0.2717391
+Grime: 0.2216031
+Palette: 2
+EffectColorA: 6
+EffectColorB: 2
+Effects: SkyDandelions-0.1304348-20-20, SkyAndLightBloom-0-30-30, LightRain-0.423913-40-40, 
+PlacedObjects: CommonGateData><491.8><242.9984><-92.1593~142.6888~False~False~False~False~False~False~True~True~0.1005322~1~1, NoSpearStickZone><466.1757><267.1857><35~239, LightSource><569.0609><236.8152><0.1630435~Environment~40~184~50~86.60254~1~1~None~0~0, LightSource><393.0525><241.7186><0.1304348~Environment~-4~153~-467~-15.39746~1~1~None~0~0, LightSource><564.1039><97.36346><0.1413043~Environment~0~100~50~86.60254~1~1~None~0~0, LightSource><389.2783><100.698><0.2065217~Environment~0~100~50~86.60254~1~1~None~0~0, InsectGroup><620.3834><240.149><-3~51~0~0~TinyDragonFly~0.2826087, FreeformDecalOrSprite><42.56979><-43.68738><100~50~0;0^923;-4^899;639^-27;652~hello world~0.7173914~LocalBloom~Water~0~False~FFFFFF, 
+AmbientSounds: OMNI><am_env-natwind.ogg><829.3357><581.3641><0.3043478><1, OMNI><am_env-outside.ogg><636.5504><563.3065><0.4130435><1, OMNI><am_env-lightwind.ogg><745.3463><500.6279><0.2826087><1, SPOT><so_ind-flourlight.ogg><488.0066><413.9499><0.5217391><1><188.0066><263.9499><-4.355347><-28.35535><0><0.1000001, SPOT><so_ind-flourlight.ogg><735.8129><350.6795><0.5108696><1><713.8129><285.6795><2.644653><-28.35535><0><0.1326088, SPOT><so_ind-fridge.ogg><733.2166><447.0528><0.5><1><481.2166><467.0528><-37.35535><-53.35535><0><0.1, SPOT><so_ind-heatduct.ogg><712.2765><409.5518><0.3152174><1><478.2765><127.5518><-33.35535><-95.35535><0><0.1, 
+FadePalette: 18, 0.371626
+MorePalette0: 3, 0.5108696
+MorePalette1: 10, 0.1956522

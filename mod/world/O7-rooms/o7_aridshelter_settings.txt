@@ -1,0 +1,5 @@
+DangerType: Thunder
+Palette: 107
+EffectColorA: 14
+Effects: SkyDandelions-0-30-30, Darkness-0.1005322-0-0, SandStorm-1-20-20, 
+FadePalette: 2, 0.3247963

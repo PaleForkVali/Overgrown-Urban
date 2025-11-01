@@ -1,0 +1,4 @@
+Type: AboveCloudsView
+floorLevel: -1000
+OffsetY: 10000
+daySky: urbanbg

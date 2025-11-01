@@ -1,5 +1,5 @@
-backdrop : 8
-background : 7
+backdrop : 15
+background : 12
 clouds : 6
 midground : 5
 flies : 4

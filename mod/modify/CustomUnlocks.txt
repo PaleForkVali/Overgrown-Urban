@@ -1,2 +1,1 @@
-[ADD]O7 : Fog Buffer, Mist Engine, Hog Gulch, Drillsite
-[ADD]O7 : Thicket, Coil Hub
+[ADD]O7stacks : Stacks, Moss Greenhouse, Tussock

@@ -1,2 +1,1 @@
-Base : Consecrated Steppe
-Overgrown Urban : 1 : THE OLD CITY ABOVE THE CLOUDS
+Overgrown Urban : 1 : OLD CITY IN THE CLOUDS
