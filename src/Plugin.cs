@@ -27,6 +27,7 @@ sealed class Plugin : BaseUnityPlugin
 
         if (IsInit) return;
         IsInit = true;
+        CutsceneChange.Init();
 
         // Initialize assets, your mod config, and anything that uses RainWorld here
         Logger.LogDebug("Hello world!");
