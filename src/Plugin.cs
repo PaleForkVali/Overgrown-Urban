@@ -14,6 +14,7 @@ sealed class Plugin : BaseUnityPlugin
 {
     public new static ManualLogSource Logger;
     bool isInit;
+    public const bool devMode = true;
 
     public void OnEnable()
     {
