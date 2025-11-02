@@ -7,7 +7,7 @@ using System.Security.Permissions;
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
 #pragma warning restore CS0618
 
-namespace TestMod;
+namespace OvergrownUrban;
 
 [BepInPlugin("PaleForkVali", "Overgrown Urban", "0.1.0")]
 sealed class Plugin : BaseUnityPlugin

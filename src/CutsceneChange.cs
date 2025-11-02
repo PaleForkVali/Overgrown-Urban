@@ -1,7 +1,7 @@
 using System;
 using Menu;
 
-namespace TestMod;
+namespace OvergrownUrban;
 
 public static class CutsceneChange
 {
