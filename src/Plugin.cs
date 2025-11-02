@@ -9,11 +9,11 @@ using System.Security.Permissions;
 
 namespace TestMod;
 
-[BepInPlugin("com.author.testmod", "Test Mod", "0.1.0")]
+[BepInPlugin("PaleForkVali", "Overgrown Urban", "0.1.0")]
 sealed class Plugin : BaseUnityPlugin
 {
-    public static new ManualLogSource Logger;
-    bool IsInit;
+    public new static ManualLogSource Logger;
+    bool isInit;
 
     public void OnEnable()
     {
@@ -21,15 +21,12 @@ sealed class Plugin : BaseUnityPlugin
         On.RainWorld.OnModsInit += OnModsInit;
     }
 
-    private void OnModsInit(On.RainWorld.orig_OnModsInit orig, RainWorld self)
+    void OnModsInit(On.RainWorld.orig_OnModsInit orig, RainWorld self)
     {
         orig(self);
 
-        if (IsInit) return;
-        IsInit = true;
+        if (isInit) return;
+        isInit = true;
         CutsceneChange.Init();
-
-        // Initialize assets, your mod config, and anything that uses RainWorld here
-        Logger.LogDebug("Hello world!");
     }
 }
