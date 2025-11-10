@@ -12,7 +12,7 @@ public static class CutsceneChange
 
 	static void MenuSceneOnBuildScene(On.Menu.MenuScene.orig_BuildScene orig, MenuScene self)
 	{
-		if (self.menu is SleepAndDeathScreen screen
+		if (self.menu is SleepAndDeathScreen { IsSleepScreen: true } screen
 		    && (Plugin.devMode 
 		        || screen.saveState.denPosition is string shelterName
 		        && shelterName.Substring(0, shelterName.IndexOf("_", StringComparison.InvariantCulture)) == "O7"))
