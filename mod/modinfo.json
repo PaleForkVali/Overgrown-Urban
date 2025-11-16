@@ -4,8 +4,8 @@
   "version": "1.0.1",
   "authors": "Vali",
   "description": "region playest 0.1",
-  "requirements": [ "crs", "regionkit", "ludocrypt.betterdecals" ],
-  "requirements_names": [ "Custom Region Support", "RegionKit", "BetterDecals" ],
+  "requirements": [ "crs", "regionkit", "ludocrypt.betterdecals", "slime-cubed.slugbase" ],
+  "requirements_names": [ "Custom Region Support", "RegionKit", "BetterDecals", "Slugbase" ],
   "checksum_override_version": false,
   "priorities": [ "moreslugcats", "themast", "underpass_will" ],
   "tags": [ "cosmetics" ]
