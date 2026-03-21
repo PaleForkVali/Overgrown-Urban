@@ -38,7 +38,7 @@ public class SteamLizardCritob : Critob
 		t.type = SteamLizard;
 		t.name = "Steam Lizard";
 		LizardBreedParams @params = (t.breedParameters as LizardBreedParams)!;
-		@params.standardColor = Color.yellow;
+		@params.standardColor = new(0.35f, 0.26f, 0.196f);
 		
 		t.doPreBakedPathing = false;
 		t.preBakedPathingAncestor = StaticWorld.GetCreatureTemplate(CreatureTemplate.Type.PinkLizard);

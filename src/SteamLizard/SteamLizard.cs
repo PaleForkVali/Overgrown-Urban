@@ -24,7 +24,7 @@ public class SteamLizard(AbstractCreature abstractCreature, World world) : Lizar
 	const float steamVelocityCoefficient = 0.3f;
 	//the logic is complicated around here, but this loosely affects how many ticks
 	//would stun target for
-	const float targetStunTicks = 140f;
+	const float targetStunTicks = 70f;
 	//how far from bodychunk surface steam particle may be to count
 	const float sizeOfStunningParticle = 20f;
 	//how much faster steam depletes than it is created
@@ -108,8 +108,15 @@ public class SteamLizard(AbstractCreature abstractCreature, World world) : Lizar
 			jawOpen = Mathf.Clamp01(jawOpen + 0.1f);
 			if (jawOpen > jawOpenPercentage)
 			{
-				steamSoundLoop ??= new StaticSoundLoop(SoundID.Gate_Water_Steam_LOOP,
-					mainBodyChunk.pos, room, 0.6f, 1f);
+				if (steamSoundLoop is null)
+				{
+					steamSoundLoop = new StaticSoundLoop(SoundID.Gate_Water_Steam_LOOP,
+						mainBodyChunk.pos, room, 0.6f, 1f);
+				}
+				else
+				{
+					steamSoundLoop.volume = 0.6f;
+				}
 				steamSmoke ??= new SteamSmoke(room);
 				Vector2 targetPosition = AI.focusCreature!.representedCreature.realizedCreature.mainBodyChunk.pos;
 				
