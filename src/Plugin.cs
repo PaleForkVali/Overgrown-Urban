@@ -15,6 +15,7 @@ sealed class Plugin : BaseUnityPlugin
     public new static ManualLogSource Logger;
     bool isInit;
     public const bool devMode = true;
+    public const byte ticksPerSecond = 40;
 
     public void OnEnable()
     {
@@ -29,5 +30,6 @@ sealed class Plugin : BaseUnityPlugin
         if (isInit) return;
         isInit = true;
         CutsceneChange.Init();
+        SteamLizard.Meta.Apply();
     }
 }
