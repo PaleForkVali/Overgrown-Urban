@@ -108,7 +108,7 @@ public class SteamLizard(AbstractCreature abstractCreature, World world) : Lizar
 			jawOpen = Mathf.Clamp01(jawOpen + 0.1f);
 			if (jawOpen > jawOpenPercentage)
 			{
-				steamSoundLoop ??= new StaticSoundLoop(Watcher.WatcherEnums.WatcherSoundID.Box_Worm_Spitting_Steam_LOOP,
+				steamSoundLoop ??= new StaticSoundLoop(SoundID.Gate_Water_Steam_LOOP,
 					mainBodyChunk.pos, room, 0.6f, 1f);
 				steamSmoke ??= new SteamSmoke(room);
 				Vector2 targetPosition = AI.focusCreature!.representedCreature.realizedCreature.mainBodyChunk.pos;
