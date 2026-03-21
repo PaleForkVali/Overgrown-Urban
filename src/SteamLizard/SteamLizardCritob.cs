@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Fisobs.Creatures;
 using Fisobs.Sandbox;
 using UnityEngine;
@@ -62,5 +63,14 @@ public class SteamLizardCritob : Critob
 	public override CreatureState CreateState(AbstractCreature acrit)
 	{
 		return new LizardState(acrit);
+	}
+
+	public override IEnumerable<string> WorldFileAliases()
+	{
+		yield return "SteamLizard";
+		yield return "steamlizard";
+		yield return "steamLizard";
+		yield return "Steam Lizard";
+		yield return "steam lizard";
 	}
 }
