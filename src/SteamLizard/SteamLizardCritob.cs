@@ -62,7 +62,10 @@ public class SteamLizardCritob : Critob
 
 	public override CreatureState CreateState(AbstractCreature acrit)
 	{
-		return new LizardState(acrit);
+		return new LizardState(acrit)
+		{
+			limbHealth = [1f,1f,1f,1f,1f,1f]
+		};
 	}
 
 	public override IEnumerable<string> WorldFileAliases()

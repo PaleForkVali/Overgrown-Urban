@@ -205,6 +205,8 @@ public class SteamLizard(AbstractCreature abstractCreature, World world) : Lizar
 		});
 	}
 	
-	
-	
+	public override void InitiateGraphicsModule()
+	{
+		graphicsModule = new SteamLizardGraphicsModule(this);
+	}
 }
