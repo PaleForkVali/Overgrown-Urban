@@ -51,14 +51,8 @@ public class SteamLizardCritob : Critob
 	{
 		// i hope its relationships would automatically be inherited from pink lizard?..
 		// it definitely hunts for slugcat
-		// Relationships self = new(SteamLizard);
-		// foreach (CreatureTemplate creatureTemplate in StaticWorld.creatureTemplates)
-		// {
-		// 	self.Ignores(creatureTemplate.type);
-		// 	self.IgnoredBy(creatureTemplate.type);
-		// }
-		// self.Eats(CreatureType.Slugcat, );
-		// self.Eats();
+		Relationships self = new(SteamLizard);
+		self.Ignores(SteamLizard);
 	}
 
 	public override CreatureState CreateState(AbstractCreature acrit)
