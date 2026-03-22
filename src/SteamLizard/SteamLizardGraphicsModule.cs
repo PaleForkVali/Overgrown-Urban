@@ -1,6 +1,4 @@
 using System;
-using UnityEngine;
-using Watcher;
 using Random = UnityEngine.Random;
 
 namespace OvergrownUrban.SteamLizard;

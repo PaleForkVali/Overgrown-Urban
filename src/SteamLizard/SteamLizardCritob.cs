@@ -1,10 +1,7 @@
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using Fisobs.Core;
 using Fisobs.Creatures;
 using Fisobs.Sandbox;
-using UnityEngine;
 using CreatureType = CreatureTemplate.Type;
 
 namespace OvergrownUrban.SteamLizard;
