@@ -1,0 +1,5 @@
+Template: o8_settingstemplate_outside
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+PlacedObjects: LightSource><1005.833><706.1402><0.2391304~Environment~-681~-635~-477~-279.3975~1~1~None~0~0, SuperStructureFuses><595.3002><101.7592><38~110, InsectGroup><477.0933><316.6243><0~82~0~0~StandardFly~0.2173913, CustomDecal><47.31958><65.31248><-109~673~1080~668~1083~-176~-268~-54.99998~0~1~0~unq - plate3~0.1739129~1~0.1739129~1~0.1739129~1~0.1739129~1, CustomDecal><473.6963><247.2885><6~96~272~71~243~-40~-312~-66~0.2934783~1~0~whitetag11(bubbly)~0.5~0.04347826~0.5~0~0.5~0~0.5~0, DandelionPatch><149.3663><153.3373><0~77, DandelionPatch><849.0526><280.4679><8~81, SteamPipe><1048.534><21.19699><58~104, DangleFruit><269.6637><436.6804><0~0~2~3, DangleFruit><885.5729><442.5928><0~0~2~3, DangleFruit><825.0691><409.1647><0~0~2~3, DandelionPatch><287.0726><636.5637><0~100, DandelionPatch><753.1249><639.5938><0~100, 
+FadePalette: 0, 0

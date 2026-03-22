@@ -1,0 +1,8 @@
+SHADER Basic
+DELAY 1
+INTERPOLATE Quadratic [XY]
+CONTAINER Foreground
+START
+bobandgob01, 0,30
+bobandgob02, 0,30
+LOOP

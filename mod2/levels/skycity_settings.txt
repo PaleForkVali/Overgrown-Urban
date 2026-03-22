@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0.08695652
+Palette: 2
+EffectColorA: 5
+EffectColorB: 3
+MorePalette0: 30, 0.326087
+MorePalette1: 30, 0.06521739
+MorePalette2: 14, 0
+BackgroundOffset: 0,440
+BackgroundType: cloudcity

@@ -1,0 +1,7 @@
+Template: o8_settingstemplate_outside
+RainIntensity: 0.3369565
+Clouds: 0.2608696
+Grime: 0.1413043
+Effects: DenseFog-0.1847826-761-521, 
+PlacedObjects: KarmaFlower><639.8846><169.3979><0~0~5~7, 
+FadePalette: 0, 0

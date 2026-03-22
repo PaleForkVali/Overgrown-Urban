@@ -1,0 +1,20 @@
+{"frames": {
+
+"Kill_SteamLizard.png":
+{
+	"frame": {"x":0,"y":0,"w":26,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":16},
+	"sourceSize": {"w":26,"h":16}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Kill_SteamLizard.png",
+	"format": "RGBA8888",
+	"size": {"w":26,"h":16},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:cb83595b17401b8bef914225cbf116e7:5c7110b10830b6d7d63e2333a25d563f:a181386bdea3f33bec96af8d174efb6f$"
+}
+}

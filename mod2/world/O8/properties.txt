@@ -1,0 +1,30 @@
+Palette: 1245
+RainIntensity: 100
+RumbleIntensity: 100
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+
+overseersSpawnChance: 0.5
+
+/boxWormColor: 1000, 0.02745, 0.0627
+boxWormColor: 0,619, 0.0588, 0
+
+/twelve forsaken satellites
+guideColor: 1000, 0.02745, 0.0627
+overseersColorOverride(1000, 0.02745, 0.0627): 1
+/void
+overseersColorOverride(102, 1, 0): 0.01
+/SSE
+overseersColorOverride(0, 0.42745, 0.35686): 0.1
+
+//overseersColorOverride(0.54901, 0.02745, 0.0627): 1
+
+overseersMin: 1
+overseersMax: 6
+playerGuideOverseerSpawnChance: 1
+
+pupSpawnChance: 0.3
+Subregion: Smog Contruct
+Room Setting Templates: Inside, Outside, FieldsInside, FieldsOutside

@@ -1,0 +1,80 @@
+ROOMS
+
+GATE_O7_O8 : DISCONNECTED, O8_enterance, DISCONNECTED : GATE
+
+O8_FT01 : DISCONNECTED, DISCONNECTED
+
+O8_enterance : O8_enterance2, GATE_O7_O8, O8_S01
+
+O8_S01 : O8_enterance : SHELTER
+
+O8_enterance2 : O8_houseofgrug, O8_enterance
+
+O8_houseofgrug : O8_houseofgrug2, O8_enterance2, O8_houseofgreg
+
+O8_houseofgrug2 : O8_pipefailure, O8_houseofgrug
+
+O8_houseofgreg : O8_houseofgrug, O8_underhang
+
+O8_underhang : O8_houseofgreg, O8_deadcity, O8_long
+
+O8_long : O8_weird, O8_scaryurban, O8_underhang
+
+O8_weird : O8_theconnection, DISCONNECTED, O8_long, O8_scaryurban
+
+O8_scaryurban : O8_weird, O8_long, O8_leg
+
+O8_leg : O8_scaryurban, O8_insideleg
+
+O8_insideleg : O8_leg, O8_S02, O8_legbelow
+
+O8_S02 : O8_insideleg : SHELTER
+
+O8_legbelow : O8_insideleg, DISCONNECTED
+
+O8_Atlantis : O8_advertisement, O8_theconnection
+
+O8_karmaflower : DISCONNECTED
+
+O8_advertisement : O8_longer, O8_Atlantis
+
+O8_theconnection : O8_dysonjump, O8_Atlantis, O8_weird
+
+O8_pipefailure : O8_dysonjump, O8_houseofgrug2
+
+O8_dysonjump : O8_theconnection, O8_pipefailure
+
+O8_longer : O8_advertisement, O8_box
+
+O8_box : O8_secretpipe, DISCONNECTED, O8_longer, O8_box2
+
+O8_secretpipe : O8_window, O8_box
+
+O8_window : DISCONNECTED, O8_secretpipe
+
+O8_box2 : DISCONNECTED, O8_fogfan, O8_box
+
+O8_fogfan : O8_box2, O8_box3outside
+
+O8_box3outside : O8_fogfan
+
+
+//fields
+
+O8_pipeurban : O8_stormdrain, DISCONNECTED
+
+O8_stormdrain : O8_pipeurban, DISCONNECTED : SCAVOUTPOST
+
+O8_pipeurbaninsidetest : DISCONNECTED, O8_secret
+
+O8_secret : O8_pipeurbaninsidetest
+
+//NEW
+O8_deadcity : DISCONNECTED, O8_underhang
+
+O8_mooytubes : DISCONNECTED, DISCONNECTED
+
+
+O8_holdingmetal : DISCONNECTED, DISCONNECTED
+
+END ROOMS

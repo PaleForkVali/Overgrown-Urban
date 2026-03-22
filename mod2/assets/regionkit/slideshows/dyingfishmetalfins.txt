@@ -1,0 +1,7 @@
+SHADER Basic
+DELAY 10
+INTERPOLATE Quadratic [XY]
+CONTAINER Foreground
+START
+dyingfishmetalfins01, 80
+LOOP

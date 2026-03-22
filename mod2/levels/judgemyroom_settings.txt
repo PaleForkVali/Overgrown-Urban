@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Sandstorm
+RainIntensity: 1
+WaveSpeed: 0.4906884
+WaveLength: 0.9452609
+WaveAmplitude: 0.02388664
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2391304
+Palette: 10
+EffectColorA: 7
+EffectColorB: 2
+TerrainPalette: outerrim_rain
+Effects: SurfaceSandstorm-0.2934783-20-20, ModifyEffectColorB-0.0326087,0.8478261,0.1521739-741-504, 
+PlacedObjects: ColoredSnowSource><605.6909><342.0594><-96~216~1~40~43~Radial~False~190^46, ColoredSnowGroup><288.0888><311.1792><125~113~1~0~30~785747~255~FFFFFF~255, ColoredSnowSource><-134><595><-55.99997~-201~1~100~43~Radial~False~117^26, ColoredSnowSource><426><586><-130~-233~1~70~43~Radial~False~49^77, ColoredSnowSource><-83.99998><204><-96~216~1~100~43~Radial~False~161^46, CustomDecal><503.06><-11.43761><7~69~89.99994~65~84.99994~-2~-347~-33.00002~0~1~0~slopyellow~0.1956522~0~0.1956522~0~0.1956522~0~0.1956522~0, CustomDecal><505><32><5~62~90.99994~55~84.99994~-2~-347~-33.00002~0.1521739~1~0~slopyellow~0.1956522~0~0.1956522~0~0.1956522~0~0.1956522~0, CustomDecal><605.9999><-29><5~83~95.99994~73~84.99994~-2~-347~-33.00002~0.326087~1~0~slopyellow~0~0~0~0~0.4347826~0~0.4456522~0, CustomDecal><301><295><5~83~95.99994~73~84.99994~-2~-347~-33.00002~0.6086956~1~0~slopyellow~0~0~0~0~0.4347826~0~0.4456522~0, CustomDecal><894><426><5~83~95.99994~73~84.99994~-2~-347~-33.00002~0.326087~1~0~slopyellow~0~0~0~0~0.4347826~0~0.4456522~0, CustomDecal><-221.8248><208.1855><-11~525~1250~428~813.9999~-235~612.0001~26.99998~0~1~0~o7 - godmural~0.1086956~1~0.08695652~1~0.173913~1~0.1304348~1, CustomDecal><-64.0592><485.4401><-2~94~584~48~564~-38~-75~-373~0~1~0~longwhiteugly~0.06521739~0.5326087~0.06521739~0~0.06521739~0.3586957~0.06521739~0, LightSource><30.53055><719.3024><0.0326087~Environment~690~-346~-112~-147.3975~1~1~None~0~0, TerrainHandle><350.1769><343.3432><-40~0~40~0~20, LocalTerrain><-291.4773><42.4487><85~455^-100~109^32~522.0001^-138~, LocalTerrain><787><-33><91~461^55~21.00012^-12~401.0001^18~, ColoredSnowSource><152><584><-130~-233~1~70~43~Radial~False~120^38, ColoredSnowSource><991><654><-130~-233~1~38~43~Radial~False~99^20, ColoredSnowSource><321><361><-130~-233~1~98~43~Radial~False~36^17, ColoredSnowSource><1127><369><-130~-233~1~100~43~Radial~False~36^17, 
+FadePalette: 0, 0.3152174
+MorePalette0: 2, 0.1086956

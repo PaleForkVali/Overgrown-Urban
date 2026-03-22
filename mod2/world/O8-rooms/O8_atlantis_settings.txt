@@ -1,0 +1,10 @@
+Template: o8_settingstemplate_outside
+Clouds: 0.2608696
+Grime: 0.1413043
+Palette: 12345
+EffectColorA: 2
+EffectColorB: 13
+Effects: Suffocation-0-351-106, 
+PlacedObjects: InsectGroup><940.7526><436.45><22~80~0~0~Beetle~0.2391305, DandelionPatch><1022.301><142.2318><10~87, DandelionPatch><197.3583><167.1088><0~100, CustomDecal><8.689362><-0.8143768><6~771~741~771~677~-48~432~367~0~1~0~rust3~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, CustomDecal><696><158><6~771~741~771~677~-48~432~367~0~1~0~rust3~0.4565217~1~0.5~1~0.3804348~1~0.5~1, CustomDecal><12.75177><45.2><-41~685~999~776~932~-76~129~249~0~1~0~unq - plate3~0.326087~1~0.4021739~1~0.173913~1~0.0326087~1, CustomDecal><621><-13><-41~765~999~776~944~57~-378~317~0~1~0~unq - plate3~0.1521742~1~0.2282609~1~0.1630438~1~0~1, CustomDecal><239.6802><629.6633><-1~66~224~52~219~-6~-226~-336~0~1~0~whitetag5~0.5~0.4782609~0.5~0~0.5~0~0.5~0, CustomDecal><1106><188><-35~105~72~223~101~157~-703~73~0.2173913~1~0~whitetag3~0.5~0.4782609~0.5~0~0.5~0.2826087~0.5~0, CustomDecal><16.15982><78.37024><-84~695~633~154~575~-152~451~247~0~1~0~greybones~0~1~0~1~0~1~0~1, CustomDecal><959><349><-354~349~397~566~564~238~-531~-104~0~1~0~greybones~0.2065217~1~0.2065217~1~0.2065217~1~0.2065217~1, DandelionPatch><192><448><22~61, DandelionPatch><1291><602><-10~117, CustomDecal><17.80402><15.21015><-7~109~1371~125~1358~-10~330~310~0~0.25~0~o8 - layer1~0~1~0~1~0~1~0~1, SteamPipe><1179.98><475.449><-9~138, SteamPipe><1168.837><423.1348><-59~19, SteamPipe><263.8005><432.2368><57~64, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>o8 - miridor<eA>vol<eB>0.3760874<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>699.5527<tB>344.2824<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>649.5527<tB>397.2824<tA>handlePos<tB>-603.3553<tB>-133.3553, 
+FadePalette: 0, 0

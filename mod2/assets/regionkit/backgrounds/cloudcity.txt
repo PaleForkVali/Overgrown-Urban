@@ -1,0 +1,58 @@
+PROTECTED
+Parent: none
+Type: AboveCloudsView
+OffsetX: 0
+OffsetY: 0
+---------------
+startAltitude: 20000
+endAltitude: 31400
+cloudsStartDepth: 5
+cloudsEndDepth: 40
+distantCloudsEndDepth: 200
+cloudsCount: 7
+curveCloudDepth: 1
+distantCloudsCount: 11
+overrideYStart: -1600
+overrideYEnd: 0
+daySky: cloudcity
+(X-Rivulet)duskSky: AtC_DuskSky
+(Rivulet)duskSky: AtC_DuskSky-Rivulet
+nightSky: AtC_NightSky
+atmosphereColor: a17663
+//293C51
+
+//B7967D
+//f2b05e
+//e39c7a
+
+
+FlyingCloud: 0, 75, 355, 0.35, 0.5, 0.9
+FlyingCloud: 0, 43, 920, 0.15, 0.3, 0.95
+
+DistantBuilding: AtC_Spire1, -587, -134, 80, 15
+DistantBuilding: AtC_Spire2, -653, -57, 100, 10
+DistantBuilding: AtC_Spire3, 0, -46, 155, 10
+DistantBuilding: AtC_Spire4, -224, -20, 190, 10
+DistantBuilding: AtC_Spire5, -276, -24, 360, 20
+DistantBuilding: AtC_Spire6, -39, -33, 280, 10
+DistantBuilding: AtC_Spire7, 155, -7, 370, 15
+DistantBuilding: AtC_Spire8, -380, 3, 380, 10
+DistantBuilding: AtC_Spire9, -207, -1, 395, 10
+
+DistantBuilding: thesun, 0, -500, 100, -1000
+DistantBuilding: sunfog, 0, -500, 100, -1000
+
+//DistantBuilding: AtC_FivePebbles, 70, -370, 390, -100
+
+DistantBuilding: skycity, -520, -85, 160, -20
+DistantLightning: AtC_Light1, -520, -119, 160, 55
+DistantBuilding: skycity, 88, -37, 350, 0
+DistantLightning: AtC_Light2, 88, -53, 350, 250
+DistantBuilding: skycity, -316, -24, 600, -100
+DistantLightning: AtC_Light3, -316, -32, 600, 80
+DistantBuilding: skycity, -648, -21, 700, -200
+DistantBuilding: skycity, 156, -22, 800, -350
+DistantBuilding: skycity, -242, -20, 850, -350
+
+DistantBuilding: skycitybig, 30, -500, 30, 10
+

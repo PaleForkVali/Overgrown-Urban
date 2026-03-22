@@ -1,0 +1,30 @@
+Template: NONE
+DangerType: Rain
+CeilingDrips: 0.5
+RainIntensity: 1
+RumbleIntensity: 0.7065217
+WaveSpeed: 0.75
+WaveLength: 0.5
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1956522
+Grime: 0.4130435
+BkgDroneVolume: 0.3
+BkgDroneNoThreatVolume: 1
+RandomItemDensity: 0.5
+RandomItemSpearChance: 0.2
+WaterReflectionAlpha: 1
+Palette: 12345
+EffectColorA: 13
+EffectColorB: 6
+Effects: Fog-0.07608695-20-20, Flies-0.05434782-21-47, SkyDandelions-0.05434782-27-131, 
+PlacedObjects: InsectGroup><804.062><395.0599><0~100~0~0~Beetle~0.1630435, InsectGroup><197.8011><577.2286><0~100~0~0~Moth~0.2282609, DandelionPatch><684.5516><722.0249><5~73, DandelionPatch><302.559><353.0592><-9~80, LightSource><898.5883><811.6176><0.2391304~Environment~-45~-284~-115~-185.3975~1~1~None~0~0, LightSource><471.7938><798.0548><0.1847826~Environment~-18~-381~-117~-185.3975~1~1~None~0~0, LightSource><-11.32666><788.4347><0.173913~Environment~12~-325~-114~-184.3975~1~1~None~0~0, CustomDecal><-171.9108><337.071><0~642~1371~623~1376~-275~676~240~0~1~0~greybones~0.1195652~1~0.1847826~1~0.1195652~1~0.1413043~1, CustomDecal><287.5933><499.6243><-68~193~385~229~329~6~-485~-249~0.3152174~1~0~brainghosts~0.2826087~0.326087~0.6630435~0~0.2391304~0~0.4456522~0, CustomDecal><31.94843><155.725><80~157~-333~196~-332~34~331~72~0.173913~1~0~greybubbly~0.1195652~0.2608696~0.2934783~0~0.25~0.5760869~0.4565217~0, CustomDecal><869.4397><574.1865><-31~172~385~122~373~-46~-422~-250~0.1956522~1~0~greysnoopy~0.2065217~0.4347826~0.5~0~0.1630435~0.5434783~0.5~0, CustomDecal><423.392><590.5817><0~129~231~67~141~-43~-387~-325~0~1~0~cartoonmouth~0.326087~0.3586957~0.5~0~0.3152174~0.3369565~0.5~0, CustomDecal><190.175><69.90326><-26~469~883~417~907~-5~-180~284~0~1~0~rustb1~0.3152174~1~0.3152174~1~0.3152174~1~0.3152174~1, CustomDecal><-173><421><-26~469~543~417~534~-153~-180~284~0~1~0~rustb1~0.3152174~1~0.3152174~1~0.3152174~1~0.3152174~1, 
+MorePalette0: 29, 0.3695652
+MorePalette1: 0, 0.5869565
+MorePalette2: 10, 0.6847826
+MorePalette3: 12345, 0.1521739
+MorePalette4: 29, 1
+MorePalette5: 61, 0.5108696
+MorePalette6: 3, 0.07608695
+BackgroundOffset: 0,15
