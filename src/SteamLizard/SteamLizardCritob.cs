@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using Fisobs.Core;
 using Fisobs.Creatures;
 using Fisobs.Sandbox;
@@ -74,6 +76,11 @@ public class SteamLizardCritob : Critob
 	
 	public override void LoadResources(RainWorld rainWorld)
 	{
-		Icon = new SimpleIcon(Ext.IconAtlasName("Kill_SteamLizard"), new(0.35f, 0.26f, 0.196f));
+		string atlasesPath = Path.Combine(ModManager.ActiveMods.First(x => x.id == "vali_overgrownurban").path,
+			"atlases");
+		Futile.atlasManager.LoadAtlas(Path.Combine(atlasesPath, "Kill_SteamLizard"));
+		Icon = new SimpleIcon("Kill_SteamLizard", new(0.35f, 0.26f, 0.196f));
+		Futile.atlasManager.LoadAtlas(Path.Combine(atlasesPath, "LizardEyes77"));
+		base.LoadResources(rainWorld);
 	}
 }

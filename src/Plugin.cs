@@ -16,24 +16,29 @@ sealed class Plugin : BaseUnityPlugin
 {
     public new static ManualLogSource Logger;
     bool isInit;
+    bool isEnablePassed = false;
     public const bool devMode = true;
     public const byte ticksPerSecond = 40;
 
     public void OnEnable()
     {
-        Logger = base.Logger;
-        On.RainWorld.OnModsInit += OnModsInit;
+        if (!isEnablePassed)
+        {
+            Logger = base.Logger;
+            //Fisobs in OnModsInit calls InitiateResources or something
+            //so that makes it sometimes miss method depending on load order
+            //the intended path is to register fisobs before onmodsinit
+            SteamLizard.Meta.Apply();
+            On.RainWorld.OnModsInit += OnModsInit;
+            isEnablePassed = true;
+        }
     }
 
     void OnModsInit(On.RainWorld.orig_OnModsInit orig, RainWorld self)
     {
         orig(self);
-
         if (isInit) return;
         isInit = true;
         CutsceneChange.Init();
-        SteamLizard.Meta.Apply();
-        Futile.atlasManager.LoadAtlas(Path.Combine(ModManager.ActiveMods.First(x => x.id == "vali_overgrownurban").path,
-            "atlases", "LizardEyes77"));
     }
 }
