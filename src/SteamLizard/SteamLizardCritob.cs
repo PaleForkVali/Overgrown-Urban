@@ -1,4 +1,7 @@
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using Fisobs.Core;
 using Fisobs.Creatures;
 using Fisobs.Sandbox;
 using UnityEngine;
@@ -39,6 +42,7 @@ public class SteamLizardCritob : Critob
 		t.name = "Steam Lizard";
 		LizardBreedParams @params = (t.breedParameters as LizardBreedParams)!;
 		@params.standardColor = new(0.35f, 0.26f, 0.196f);
+		@params.headGraphics[4] = 77;
 		
 		t.doPreBakedPathing = false;
 		t.preBakedPathingAncestor = StaticWorld.GetCreatureTemplate(CreatureTemplate.Type.PinkLizard);
@@ -75,5 +79,12 @@ public class SteamLizardCritob : Critob
 		yield return "steamLizard";
 		yield return "Steam Lizard";
 		yield return "steam lizard";
+	}
+	
+	public override void LoadResources(RainWorld rainWorld)
+	{
+		Icon = new SimpleIcon(Ext.IconAtlasName("Kill_SteamLizard"), new(0.35f, 0.26f, 0.196f));
+		Futile.atlasManager.LoadAtlas(Path.Combine(ModManager.ActiveMods.First(x => x.id == "vali_overgrownurban").path,
+			"atlases", "LizardEyes77"));
 	}
 }
