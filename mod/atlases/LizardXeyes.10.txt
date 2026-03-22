@@ -1,6 +1,6 @@
 {"frames": {
 
-"Untitled2378.png":
+"LizardEyes.3.77.png":
 {
 	"frame": {"x":0,"y":0,"w":15,"h":6},
 	"rotated": false,
@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":6},
 	"sourceSize": {"w":15,"h":6}
 },
-"Untitled2379.png":
+"LizardEyes.1.77.png":
 {
 	"frame": {"x":15,"y":0,"w":5,"h":6},
 	"rotated": false,
@@ -16,7 +16,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":6},
 	"sourceSize": {"w":5,"h":6}
 },
-"Untitled2380.png":
+"LizardEyes.0.77.png":
 {
 	"frame": {"x":20,"y":0,"w":4,"h":6},
 	"rotated": false,
@@ -24,7 +24,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":4,"h":6},
 	"sourceSize": {"w":4,"h":6}
 },
-"Untitled2381.png":
+"LizardEyes.2.77.png":
 {
 	"frame": {"x":24,"y":0,"w":13,"h":7},
 	"rotated": false,
@@ -35,7 +35,7 @@
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "LizardXeyes.10.png",
+	"image": "LizardEyes.77.png",
 	"format": "RGBA8888",
 	"size": {"w":37,"h":7},
 	"scale": "1",
