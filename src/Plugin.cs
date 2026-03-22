@@ -1,4 +1,6 @@
-﻿using BepInEx;
+﻿using System.IO;
+using System.Linq;
+using BepInEx;
 using BepInEx.Logging;
 using System.Security.Permissions;
 
@@ -31,5 +33,7 @@ sealed class Plugin : BaseUnityPlugin
         isInit = true;
         CutsceneChange.Init();
         SteamLizard.Meta.Apply();
+        Futile.atlasManager.LoadAtlas(Path.Combine(ModManager.ActiveMods.First(x => x.id == "vali_overgrownurban").path,
+            "atlases", "LizardEyes77"));
     }
 }

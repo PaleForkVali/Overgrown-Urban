@@ -84,7 +84,5 @@ public class SteamLizardCritob : Critob
 	public override void LoadResources(RainWorld rainWorld)
 	{
 		Icon = new SimpleIcon(Ext.IconAtlasName("Kill_SteamLizard"), new(0.35f, 0.26f, 0.196f));
-		Futile.atlasManager.LoadAtlas(Path.Combine(ModManager.ActiveMods.First(x => x.id == "vali_overgrownurban").path,
-			"atlases", "LizardEyes77"));
 	}
 }
