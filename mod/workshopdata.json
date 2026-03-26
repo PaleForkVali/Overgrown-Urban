@@ -4,8 +4,8 @@
   "ID": "vali_overgrownurban",
   "Version": "1.2.0",
   "TargetGameVersion": "v1.9.06",
-  "Requirements": "crs,regionkit,lb-fgf-m4r-ik.modpack,slime-cubed.slugbase,sequoia.parascutigera-creature,themast,underpass_will",
-  "RequirementNames": "Custom Region Support,RegionKit,TheM4rblelous Entity Pack,Slugbase,Parascutigera",
+  "Requirements": "crs,regionkit,lb-fgf-m4r-ik.modpack,slime-cubed.slugbase,sequoia.parascutigera-creature,themast,underpass_will,fisobs",
+  "RequirementNames": "Custom Region Support,RegionKit,TheM4rblelous Entity Pack,Slugbase,Parascutigera,Fisobs",
   "Authors": "Vali",
   "Visibility": "Public",
   "Tags": [

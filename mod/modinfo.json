@@ -4,8 +4,8 @@
   "version": "1.2.0",
   "authors": "Vali",
   "description": "Explore old, overgrown city overtaken by nature.",
-  "requirements": [ "crs", "regionkit", "lb-fgf-m4r-ik.modpack", "slime-cubed.slugbase", "sequoia.parascutigera-creature","themast","underpass_will" ],
-  "requirements_names": [ "Custom Region Support", "RegionKit", "TheM4rblelous Entity Pack", "Slugbase", "Parascutigera", "The Mast", "Underpass" ],
+  "requirements": [ "crs", "regionkit", "lb-fgf-m4r-ik.modpack", "slime-cubed.slugbase", "sequoia.parascutigera-creature","themast","underpass_will", "fisobs" ],
+  "requirements_names": [ "Custom Region Support", "RegionKit", "TheM4rblelous Entity Pack", "Slugbase", "Parascutigera", "The Mast", "Underpass", "Fisobs" ],
   "checksum_override_version": false,
   "priorities": [ "moreslugcats", "jam.aridbarrens", "watcher" ],
   "tags": [ "arenas", "regions" ]
