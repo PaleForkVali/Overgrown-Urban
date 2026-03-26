@@ -1,0 +1,14 @@
+Template: o7_settingstemplate_snowouts
+CeilingDrips: 0
+WaveSpeed: 0.5221692
+WaveLength: 0.9889154
+WaveAmplitude: 3.550267E-09
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.04347826
+PlacedObjects: GhostSpot><243.8999><417.8824><, LanternOnStick><566.9599><240.446><22~-100, SnowSource><304.8735><399.1549><Radial~491~314~-186~-246.3975~0.7173913~1, SnowSource><801><339><Radial~491~314~-186~-246.3975~0.6086956~1, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><725.1399><522.8571><0.6195652><1, 
+FadePalette: 2, 0.4995245
+WetTerrain: OFF
+MorePalette0: 0, 0
+MorePalette1: 37, 0.4130435

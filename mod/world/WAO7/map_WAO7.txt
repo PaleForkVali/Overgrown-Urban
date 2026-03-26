@@ -1,0 +1,78 @@
+WAO7_ECHO: -1256.103><607.6154><-922.6155><548.5128><1><Decaying Capital><62><43
+WAO7_CONSTRUCTIONSITE: -1256.103><448.6154><-921.6155><379.5128><1><Decaying Capital><62><63
+WAO7_CH01: -1154.103><295.6154><-861.6155><253.5128><1><Decaying Capital><48><36
+WAO7_megawallvents: -910.1024><292.6154><-739.6155><251.5128><1><Decaying Capital><118><35
+WAO7_TH05: -568.1024><248.6154><-476.6154><254.5128><1><Decaying Capital><98><35
+WAO7_TH03: -680.1024><115.6154><-483.6154><119.5128><1><Decaying Capital><48><35
+WAO7_TH02: -679.1024><-17.38464><-490.6154><-15.48712><1><Decaying Capital><48><35
+WAO7_TH09: -856.1027><-18.38464><-635.6155><-11.48712><1><Decaying Capital><48><35
+WAO7_TH04: -785.1024><-220.3846><-729.6155><-237.4872><1><Decaying Capital><192><78
+WAO7_TH06: -1171.103><-261.3846><-885.6155><-233.4872><1><Decaying Capital><53><40
+WAO7_TH07: -1359.103><-257.3846><-1034.616><-202.4872><1><Decaying Capital><57><37
+WAO7_TH01: -418.1026><-149.3846><-319.6154><-152.4872><1><Decaying Capital><48><35
+WAO7_waterhousepour: -251.1026><-159.3846><-187.6158><-158.4872><1><Decaying Capital><48><35
+WAO7_waterhouse2: -79.10238><-79.38461><-34.6155><-132.4872><1><Decaying Capital><50><73
+WAO7_waterhouse1: 130.8975><-9.38461><119.3844><-28.48719><1><Decaying Capital><48><35
+WAO7_S07: 309.8975><-23.38467><253.3842><-29.48713><1><><48><35
+WAO7_waterhouse3: -51.10249><148.6154><-26.61555><88.51282><1><Decaying Capital><48><36
+WAO7_waterhouseroof: 17.89762><309.6154><-18.61555><251.5128><1><Decaying Capital><52><35
+WAO7_BALL: 139.8974><149.6154><114.3844><96.51282><1><Decaying Capital><59><35
+WAO7_TH10: -344.1025><-324.3846><-322.6154><-276.4872><1><Decaying Capital><105><35
+WAO7_TH08: -115.1025><-332.3846><-89.61556><-286.4872><1><Decaying Capital><48><35
+WAO7_weirdfans: 140.8976><-335.3845><44.3845><-294.4872><1><Decaying Capital><120><35
+WAO7_wallafter: 507.8974><-280.3846><348.3846><-314.4872><1><Decaying Capital><120><77
+WAO7_GLOWSIGN: 131.8974><-182.3846><132.3842><-143.4872><1><Decaying Capital><51><36
+WAO7_wallafter2: 399.8974><-475.3846><346.3846><-440.4872><1><><48><35
+WAO7_S0ROTURBAN: -1323.102><257.6154><-1005.615><238.5128><1><><48><35
+WAO7_DF06: 770.8976><-288.3846><620.3845><-282.4872><1><Decaying Capital><48><35
+WAO7_DF07: 964.8976><-277.3846><748.3845><-282.4872><1><Decaying Capital><48><35
+WAO7_dysoninside: 1039.897><-121.3846><767.3845><-120.4871><1><Decaying Capital><48><35
+WAO7_PR01: 779.8973><-56.38465><616.3845><-147.4872><1><Decaying Capital><49><103
+WAO7_ROTTRADER: 619.8976><-34.38465><475.3846><11.51288><1><Decaying Capital><48><35
+WAO7_PR02: 779.8976><199.6154><608.3845><180.5128><1><Decaying Capital><48><38
+WAO7_S05: 603.8976><199.6154><474.3846><193.5128><1><><48><35
+WAO7_deadprogress: 1044.897><327.6154><667.3845><345.5128><1><Decaying Capital><140><35
+WAO7_abovedyson: 1350.897><152.6154><909.3845><183.5128><1><Decaying Capital><60><41
+WAO7_dysonfan: 1351.897><14.61539><907.3845><31.51281><1><Decaying Capital><51><38
+WAO7_dysonfan2: 1358.898><-107.3846><908.3845><-124.4872><1><Decaying Capital><52><43
+WAO7_CS5: 1635.897><13.61537><1073.385><41.51282><1><Decaying Capital><84><35
+OffScreenDen_WAO7: -824.1024><229.6154><51.38447><445.5128><1><><0><0
+Connection: WAO7_ECHO,WAO7_CONSTRUCTIONSITE,28,6,28,56,3,3
+Connection: WAO7_CONSTRUCTIONSITE,WAO7_CH01,48,7,20,32,0,1
+Connection: WAO7_CH01,WAO7_megawallvents,44,4,8,8,0,2
+Connection: WAO7_CH01,WAO7_S0ROTURBAN,1,2,44,11,2,0
+Connection: WAO7_megawallvents,WAO7_TH05,116,9,2,23,0,2
+Connection: WAO7_TH05,WAO7_TH03,10,8,22,32,3,1
+Connection: WAO7_TH03,WAO7_TH02,14,9,18,32,3,1
+Connection: WAO7_TH02,WAO7_TH09,4,8,43,8,2,0
+Connection: WAO7_TH09,WAO7_TH04,14,1,62,74,3,1
+Connection: WAO7_TH04,WAO7_TH01,176,51,4,5,0,2
+Connection: WAO7_TH04,WAO7_TH10,176,26,10,20,3,2
+Connection: WAO7_TH04,WAO7_TH06,7,15,44,8,2,0
+Connection: WAO7_TH06,WAO7_TH07,3,12,52,7,2,0
+Connection: WAO7_TH01,WAO7_waterhousepour,44,8,5,11,0,2
+Connection: WAO7_waterhousepour,WAO7_waterhouse2,40,29,1,17,0,2
+Connection: WAO7_waterhouse2,WAO7_waterhouse3,21,70,10,3,1,3
+Connection: WAO7_waterhouse2,WAO7_waterhouse1,46,58,2,14,0,2
+Connection: WAO7_waterhouse2,WAO7_GLOWSIGN,47,7,7,11,0,2
+Connection: WAO7_waterhouse1,WAO7_S07,44,12,4,16,0,2
+Connection: WAO7_waterhouse3,WAO7_waterhouseroof,38,25,18,5,1,3
+Connection: WAO7_waterhouse3,WAO7_BALL,45,17,22,17,0,2
+Connection: WAO7_TH10,WAO7_TH08,97,14,1,16,0,2
+Connection: WAO7_TH08,WAO7_weirdfans,46,16,14,16,0,2
+Connection: WAO7_weirdfans,WAO7_wallafter,114,13,6,19,0,2
+Connection: WAO7_wallafter,WAO7_GLOWSIGN,3,68,47,29,2,0
+Connection: WAO7_wallafter,WAO7_DF06,115,51,5,29,0,2
+Connection: WAO7_wallafter,WAO7_wallafter2,35,4,35,30,0,0
+Connection: WAO7_DF06,WAO7_DF07,43,14,3,6,0,2
+Connection: WAO7_DF07,WAO7_dysoninside,42,27,20,4,1,3
+Connection: WAO7_dysoninside,WAO7_PR01,2,22,44,35,2,0
+Connection: WAO7_dysoninside,WAO7_dysonfan2,44,7,4,15,0,2
+Connection: WAO7_PR01,WAO7_PR02,36,98,44,7,0,0
+Connection: WAO7_PR01,WAO7_ROTTRADER,13,60,44,16,2,0
+Connection: WAO7_PR02,WAO7_deadprogress,41,21,16,10,0,3
+Connection: WAO7_PR02,WAO7_S05,4,12,44,11,2,0
+Connection: WAO7_deadprogress,WAO7_abovedyson,119,15,7,36,3,2
+Connection: WAO7_abovedyson,WAO7_dysonfan,9,8,7,33,2,2
+Connection: WAO7_dysonfan,WAO7_CS5,47,14,3,12,0,2
+Connection: WAO7_dysonfan,WAO7_dysonfan2,37,11,40,35,3,1

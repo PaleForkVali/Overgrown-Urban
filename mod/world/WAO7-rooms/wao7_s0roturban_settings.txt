@@ -1,0 +1,3 @@
+Clouds: 0.556087
+PlacedObjects: GooDrips><693.8944><229.3884><231~149~0~0~0.5, 
+FadePalette: 466, 0.326087

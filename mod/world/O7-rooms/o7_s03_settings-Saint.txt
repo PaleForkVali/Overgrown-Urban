@@ -1,0 +1,13 @@
+Template: o7_settingstemplate_snowins
+CeilingDrips: 0
+WaveSpeed: 0.498647
+WaveLength: 0.9993235
+WaveAmplitude: 7.89366E-14
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorA: 9
+PlacedObjects: ShelterBhvrManager><-63.64731><281.0784><100~50~False~False~4~False~3~6~20~40~60~120~120~120~False, ShelterBhvrSpawnPosition><179.1838><213.3113><, ShelterBhvrNoTriggerZone><492.4247><321.6853><123~106, BrokenShelterWaterLevel><535.348><234.7294><, CustomDecal><461.3657><139.9131><-12~468~167~459~166~-11~-224~135~0.2391304~1~0~blackrust1~0.5217391~0.4347826~0.5217391~0~0.5217391~0.3369565~0.5217391~0, 
+FadePalette: 2, 0.5326087
+WetTerrain: OFF
+MorePalette0: 3, 0.5978261
+MorePalette1: 37, 0.2282609

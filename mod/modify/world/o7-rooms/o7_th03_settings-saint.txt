@@ -1,0 +1,8 @@
+[FIND]LightSource><147.3872><260.9111><1~Environment~0~100~50~86.60254~1~0~None~0~0, 
+[REPLACE]
+[MERGE]
+WaveSpeed: 0.5004488
+WaveLength: 0.9997756
+WaveAmplitude: 1.23582E-08
+PlacedObjects: LightSource><147.3872><261.9111><1~Environment~0~100~-271~-170.3975~1~0~None~0~0, SnowSource><832.4751><476.6984><Radial~20~94~-337~-135.3975~0.8913044~1, 
+[ENDMERGE]

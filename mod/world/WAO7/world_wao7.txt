@@ -1,0 +1,63 @@
+ROOMS
+
+WAO7_ECHO : WAO7_CONSTRUCTIONSITE
+WAO7_CONSTRUCTIONSITE : WAO7_ECHO, WAO7_CH01
+WAO7_CH01 : WAO7_CONSTRUCTIONSITE, WAO7_megawallvents, WAO7_S0ROTURBAN
+WAO7_megawallvents : WAO7_TH05, WAO7_CH01
+WAO7_TH05 : WAO7_megawallvents, WAO7_TH03
+WAO7_TH03 : WAO7_TH05, WAO7_TH02
+WAO7_TH02 : WAO7_TH03, WAO7_TH09, DISCONNECTED
+//ADDSHELTERBELOW
+WAO7_TH09 : DISCONNECTED, WAO7_TH02, WAO7_TH04
+WAO7_TH04 : WAO7_TH09, WAO7_TH01, WAO7_TH10, WAO7_TH06
+
+WAO7_TH06 : WAO7_TH07, WAO7_TH04
+WAO7_TH07 : WAO7_TH06
+WAO7_TH01 : WAO7_waterhousepour, WAO7_TH04
+WAO7_waterhousepour : WAO7_waterhouse2, WAO7_TH01
+WAO7_waterhouse2 : WAO7_waterhouse3, WAO7_waterhouse1, WAO7_waterhousepour, WAO7_GLOWSIGN
+WAO7_waterhouse1 : WAO7_waterhouse2, WAO7_S07
+WAO7_S07 : WAO7_waterhouse1 : ANCIENTSHELTER
+
+WAO7_waterhouse3 : WAO7_waterhouseroof, WAO7_BALL, DISCONNECTED, WAO7_waterhouse2
+WAO7_waterhouseroof : DISCONNECTED, WAO7_waterhouse3
+WAO7_BALL : WAO7_waterhouse3
+
+WAO7_TH10 : WAO7_TH04, WAO7_TH08
+WAO7_TH08 : WAO7_TH10, WAO7_weirdfans, DISCONNECTED
+WAO7_weirdfans : WAO7_TH08, WAO7_wallafter
+WAO7_wallafter : WAO7_GLOWSIGN, WAO7_DF06, WAO7_weirdfans, WAO7_wallafter2
+WAO7_GLOWSIGN : WAO7_wallafter, WAO7_waterhouse2
+WAO7_wallafter2 : WAO7_wallafter
+
+WAO7_S0ROTURBAN : WAO7_CH01 : SHELTER
+
+WAO7_DF06 : WAO7_wallafter, WAO7_DF07
+WAO7_DF07 : WAO7_dysoninside, WAO7_DF06, DISCONNECTED, DISCONNECTED
+
+WAO7_dysoninside : WAO7_PR01, WAO7_dysonfan2, WAO7_DF07
+WAO7_PR01 : WAO7_PR02, DISCONNECTED, WAO7_ROTTRADER, WAO7_dysoninside
+WAO7_ROTTRADER : WAO7_PR01
+WAO7_PR02 : WAO7_deadprogress, WAO7_S05, WAO7_PR01
+WAO7_S05 : WAO7_PR02 : SHELTER
+WAO7_deadprogress : WAO7_abovedyson, WAO7_PR02
+
+WAO7_abovedyson : WAO7_deadprogress, WAO7_dysonfan
+WAO7_dysonfan : WAO7_abovedyson, WAO7_CS5, WAO7_dysonfan2
+WAO7_dysonfan2 : WAO7_dysonfan, WAO7_dysoninside
+WAO7_CS5 : WAO7_dysonfan
+
+END ROOMS
+
+CREATURES
+
+OFFSCREEN : 0-Scavenger-6, 0-KingVulture-1
+WAO7_PR01 : 4-Yellow-{RotType:3}
+WAO7_waterhouse3 : 3-Pink-{RotType:2}
+WAO7_TH04 : 4-Yellow-{RotType:2}-2, 5-Daddy-1
+WAO7_megawallvents : 4-Pink-{RotType:3}
+WAO7_TH10 : 3-DropBug-1, 2-Yellow-{RotType:2}
+WAO7_weirdfans : 3-Pink-{RotType:2}
+WAO7_abovedyson : 3-Daddy-1
+
+END CREATURES

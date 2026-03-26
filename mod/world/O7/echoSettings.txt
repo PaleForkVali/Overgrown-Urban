@@ -1,7 +1,7 @@
 (Yellow,White)priming : true
 (Red)priming : false
 size : 1
-radius : 3
+radius : 8
 echosong : CC
 room : O7_ECHO
 defaultflip : -1.0

@@ -1,0 +1,14 @@
+kelpColor: 0.3,0,1.0
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+batsPerActiveSwarmRoom: 6
+overseersSpawnChance: 0.0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0
+Subregion: Decaying Capital
+Room Setting Templates: RotUrban
+Room_Attr: WAO7_ECHO: Vulture-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Centiwing-Forbidden,KingVulture-Forbidden,Hoverfly-Forbidden,FatFireFly-Forbidden,FlyingBigEel-Forbidden,MiniFlyingBigEel-Forbidden,MirosVulture-Forbidden,TowerCrab-Forbidden,
+Room_Attr: WAO7_CONSTRUCTIONSITE: Vulture-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Centiwing-Forbidden,KingVulture-Forbidden,Hoverfly-Forbidden,FatFireFly-Forbidden,FlyingBigEel-Forbidden,MiniFlyingBigEel-Forbidden,MirosVulture-Forbidden,TowerCrab-Forbidden,

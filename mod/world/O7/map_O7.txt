@@ -1,137 +1,127 @@
-GATE_O7_AB: 1620.452><-695.4573><1057.619><-643.0886><1><><48><35
-O7_ARIDSHELTER: 1529.748><-804.0118><1023.096><-755.4661><1><><48><35
-O7_AB01: 1139.748><-684.0118><619.0938><-622.4661><1><><118><35
-O7_ABwelcome: 1432.517><-687.3591><888.6901><-633.2678><1><><72><35
-GATE_O7_TM: 3356.457><-200.9263><2462.552><-232.4181><1><><48><35
-O7_TM01: 3063.343><-203.5265><2150.927><-237.3962><1><Sunscorched Trainway><143><35
-O7_TM02: 2650.142><-269.839><1915.288><-321.3362><1><Sunscorched Trainway><102><78
-O7_TM03: 2260.087><-201.8461><1608.521><-217.2322><1><Sunscorched Trainway><143><35
-O7_TM04: 2256.517><-314.0162><1609.282><-347.1946><1><Sunscorched Trainway><143><35
-O7_thethreepipes: 1918.338><-192.5588><1506.524><-226.5196><1><Sunscorched Trainway><50><35
-O7_megawallvents: 2262.369><-66.9816><1541.962><-79.4523><1><Sunscorched Trainway><118><35
-O7_wallventinside: 2644.126><-65.99315><1956.306><-83.65758><1><Sunscorched Trainway><48><35
-O7_CS0: 2921.478><-54.1399><2253.74><-86.4104><1><Overgrown Urban><52><36
-O7_CS1: 2913.145><135.3946><2252.644><77.16811><1><Overgrown Urban><52><72
-O7_CS2: 2898.619><315.4603><2212.644><295.0778><1><Overgrown Urban><48><35
-O7_distantview: 2809.322><447.7522><2200.41><449.1685><1><Overgrown Urban><52><39
-O7_CS4: 2631.562><312.9543><1950.116><293.1343><1><Overgrown Urban><116><42
-O7_S01: 3054.634><-206.6473><2219.938><-364.8756><1><><56><35
-O7_S05: 2658.306><446.9787><1927.194><468.3553><1><><48><35
-O7_CS5: 2200.594><323.6436><1632.755><296.1266><1><Overgrown Urban><84><35
-O7_CS6: 2392.15><320.9941><1830.889><300.5234><1><Overgrown Urban><48><35
-O7_dysonfan: 1975.264><329.3079><1487.832><289.3914><1><Overgrown Urban><51><38
-O7_dysonfan2: 1980.65><191.6454><1481.162><131.3944><1><Overgrown Urban><52><43
-O7_dysoninside: 1717.441><195.8125><1278.047><105.4836><1><Overgrown Urban><48><35
-O7_PR01: 1494.744><291.9083><1094.063><91.11081><1><Overgrown Urban><49><103
-O7_TRADER: 1308.061><244.422><971.8881><109.4391><1><Overgrown Urban><48><35
-O7_weirdfans: 1039.562><-141.7822><544.4033><-176.5243><1><Overgrown Urban><120><35
-O7_PR02: 1496.718><530.4114><1092.851><370.9998><1><Overgrown Urban><48><38
-O7_workinprogress: 1738.379><676.8062><1185.313><548.4544><1><Overgrown Urban><140><35
-O7_abovedyson: 1992.508><492.2779><1479.844><421.2841><1><Overgrown Urban><60><41
-O7_waterhouse1: 839.1176><241.7481><647.0701><53.81535><1><Overgrown Urban><48><35
-O7_waterhouse2: 664.6155><185.6983><536.8809><-37.58542><1><Overgrown Urban><50><73
-O7_waterhouse3: 663.8687><393.1041><535.9199><180.2257><1><Overgrown Urban><48><36
-O7_waterhouseroof: 668.5208><618.126><516.7068><429.7929><1><Overgrown Urban><52><35
-O7_GLOWSIGN: 803.8387><113.7985><671.2587><-62.60822><1><Overgrown Urban><51><36
-O7_S07: 1020.623><238.2766><797.9639><65.27721><1><><48><35
-O7_thethreepipes2: 1922.541><-320.1468><1507.281><-344.3611><1><Sunscorched Trainway><48><35
-O7_dysonfanbottom: 1711.926><-252.3496><1388.842><-328.0851><1><Overgrown Urban><50><74
-O7_wall: 1495.77><-205.8168><1249.583><-251.7613><1><Overgrown Urban><61><35
-O7_wallafter: 1052.045><38.86557><828.004><-132.1542><1><Overgrown Urban><120><77
-O7_wallafter2: 785.4521><-19.241><824.6085><-247.1114><1><Overgrown Urban><48><35
-O7_DF06: 1328.279><-30.681><1097.691><-101.582><1><Overgrown Urban><48><35
-O7_DF07: 1492.774><-49.14602><1252.983><-117.7641><1><Overgrown Urban><48><35
-O7_waterhousepour: 514.2928><-9.215768><403.7852><-24.87108><1><Overgrown Urban><48><35
-O7_TH01: 353.1662><-10.74628><267.4193><-25.38353><1><Overgrown Urban><48><35
-O7_TH02: -52.17123><121.3868><79.64906><165.9473><1><Overgrown Urban><48><35
-O7_TH09: -226.7307><119.7592><-58.3172><162.0967><1><Overgrown Urban><48><35
-O7_TH03: -47.87104><260.8975><76.97676><279.1248><1><Overgrown Urban><48><35
-O7_TH04: -14.58786><-80.3024><-148.6113><-120.3516><1><Overgrown Urban><192><78
-O7_TH05: 67.20822><386.042><134.9821><396.1266><1><Overgrown Urban><98><35
-O7_TH06: -398.9827><-147.5636><-272.2101><-118.6051><1><Overgrown Urban><53><40
-O7_TH07: -686.9409><-149.6953><-549.6227><-118.0847><1><Overgrown Urban><127><37
-O7_TH08: 756.9999><-145.4261><413.9987><-175.3805><1><Overgrown Urban><48><35
-O7_TH10: 514.9454><-136.5296><185.7305><-181.2895><1><Overgrown Urban><105><35
-O7_constructionsite: -253.8716><564.8162><-64.83595><570.535><1><Overgrown Urban><62><63
-O7_ECHO: -252.8719><722.8162><-59.8556><769.6462><1><Overgrown Urban><62><43
-O7_CH01: -191.5599><391.3503><6.267716><434.481><1><Overgrown Urban><48><36
-O7_CHscav: -416.6934><118.8172><-223.7227><154.958><1><Overgrown Urban><70><38
-O7_S06: -3388.428><-65.24142><-2483.385><89.81969><1><><48><35
-O7_RH01: -974.1111><-155.0728><-676.996><-110.6551><1><Overgrown Urban><48><36
-O7_RH02: -975.1891><-24.0253><-678.2932><28.63737><1><Overgrown Urban><48><36
-O7_RH03: -970.4861><116.7749><-681.2932><175.6368><1><Overgrown Urban><51><36
-O7_RH04: -1261.037><116.7749><-954.2983><193.6368><1><Overgrown Urban><131><36
-O7_RH05: -1554.413><114.9378><-1084.583><179.3395><1><Overgrown Urban><54><38
-O7_RH06: -1155.923><-193.224><-833.9554><-237.9483><1><Overgrown Urban><53><81
-O7_CHIEFTAINHOME: -1146.871><-127.0178><-838.1044><-7.214933><1><Overgrown Urban><53><38
-O7_SHELTERUNLORE: -1660.252><0.9882593><-1174.905><79.53394><1><><48><35
-O7_RH07: -1408.35><-278.4512><-1060.095><-241.6186><1><Overgrown Urban><90><35
-O7_BEETLEhouse: -1305.777><-145.3085><-972.1249><-132.3267><1><Overgrown Urban><48><34
-O7_secretslop: -1465.482><-134.359><-1106.309><-140.2678><1><Overgrown Urban><53><38
-O7_RH10: -1738.69><-277.8272><-1210.52><-245.8834><1><Overgrown Urban><48><35
-O7_RH11: -2109.24><-278.4851><-1481.86><-246.1135><1><Overgrown Urban><111><35
-O7_RH12: -2168.251><-154.0118><-1501.905><-87.46606><1><Skyhigh Column of Countless Generations><58><35
-O7_BALLSMALL: -2367.581><-342.1839><-1614.781><-326.3434><1><Overgrown Urban><48><78
-O7_wormroof: -818.0659><-301.8735><-642.8096><-259.641><1><Overgrown Urban><128><37
-O7_3HOUSES: 749.8788><-397.5729><384.7534><-480.256><1><Overgrown Urban><72><121
-O7_S03: 744.7661><-447.6624><263.2><-401.986><1><><63><27
-O7_SWP02: 410.8756><-817.3229><63.41686><-735.7541><1><Sewer Swampland><126><35
-O7_SWborder: 718.5291><-686.0187><331.3467><-621.6572><1><Sewer Swampland><125><37
-O7_SW03: 124.1366><-758.3558><-64.45778><-728.6121><1><Sewer Swampland><52><73
-O7_SW04: 131.8546><-505.3451><-53.08923><-533.2938><1><Sewer Swampland><52><73
-O7_SW05: -46.32553><-453.9677><-167.8951><-470.1162><1><Overgrown Urban><52><35
-O7_BALL: 1069.277><494.4333><654.8444><270.9998><1><Overgrown Urban><208><120
-O7_GREENHOUSE: -1722.34><172.342><-1205.012><175.9072><1><Skyhigh Column of Countless Generations><53><72
-O7_BHview: -2168.445><495.3776><-1522.62><630.4797><1><Skyhigh Column of Countless Generations><70><35
-O7_BHview2NEW: -2173.6><633.3211><-1517.347><765.4761><1><Skyhigh Column of Countless Generations><71><44
-O7_SKYSHELTER: -1893.251><505.8093><-1342.425><630.7954><1><><48><35
-O7_BHmur01: -2165.657><37.4354><-1516.641><73.0396><1><Skyhigh Column of Countless Generations><48><78
-O7_BHmur02: -2172.158><229.3595><-1516><277.0874><1><Skyhigh Column of Countless Generations><49><39
-O7_BHmur03: -2170.819><365.1832><-1505.397><458.9138><1><Skyhigh Column of Countless Generations><49><39
-O7_BH02: -1941.171><224.22><-1389.288><280.6378><1><Skyhigh Column of Countless Generations><84><35
-O7_BH03: -1935.273><367.8864><-1344.12><453.5727><1><Skyhigh Column of Countless Generations><48><35
-O7_BH04: -2400.686><369.1266><-1733.917><458.4243><1><Skyhigh Column of Countless Generations><94><35
-O7_BH05: -2392.528><101.0612><-1724.182><176.7087><1><Skyhigh Column of Countless Generations><94><35
-O7_BH06: -2622.528><252.0612><-1882.017><306.5529><1><Skyhigh Column of Countless Generations><52><108
-O7_BH07: -2643.518><505.896><-1879.375><602.9551><1><Skyhigh Column of Countless Generations><76><35
-O7_BH08: -2855.608><460.3506><-2035.495><513.0562><1><Skyhigh Column of Countless Generations><48><78
-O7_BHbox: -2771.717><289.8011><-2029.386><358.5883><1><Skyhigh Column of Countless Generations><48><35
-O7_BHflyroom: -3025.717><389.8011><-2206.675><494.2994><1><Skyhigh Column of Countless Generations><60><36
-O7_BH09: -3021.08><266.686><-2184.021><357.2463><1><Skyhigh Column of Countless Generations><48><35
-O7_BH10: -3199.874><169.0069><-2345.696><229.3424><1><Skyhigh Column of Countless Generations><64><97
-GATE_O7_O8: -3402.873><48.00696><-2486.696><216.3424><1><><48><35
-O7_memory: -2364.887><-148.6694><-1655.559><-84.94667><1><Skyhigh Column of Countless Generations><48><35
-O7_noideas: -259.3663><-311.5802><-300.9217><-381.5013><1><Overgrown Urban><48><39
-O7_noideas2: -258.5684><-457.1234><-315.2986><-481.8492><1><Overgrown Urban><62><39
-O7_noideas3: -452.9858><-303.089><-299.8142><-260.7483><1><Overgrown Urban><48><35
-O7_batflyideas: 312.3978><-452.679><72.64796><-477.5244><1><Sewer Swampland><52><37
-O7_CAVE01: -2406.449><-551.6627><-1742.131><-527.9761><1><><120><36
-O7_CAVE02: -2506.548><-430.4573><-1743.641><-387.0221><1><><48><44
-GATE_O7_TX: -2128.449><-549.6627><-1471.923><-536.7322><1><><48><35
-O7_S08: -2175.548><-462.4572><-1473.479><-390.5998><1><><49><35
-OffScreenDen_O7: 2013.717><58.75291><398.5034><564.1715><1><><0><0
-Connection: GATE_O7_AB,O7_ABwelcome,2,9,54,4,2,0
+GATE_O7_AB: 1107.26><-713.1104><1122.064><-656.7864><1><><48><35
+O7_ARIDSHELTER: 1020.555><-840.6652><1086.543><-770.1639><1><><48><35
+GATE_O7_TM: 3441.262><-224.5793><2525.998><-247.1164><1><><48><35
+O7_TM01: 3148.149><-227.1792><2214.373><-252.0944><1><Sunscorched Trainway><143><35
+O7_TM02: 2734.949><-293.4919><1978.732><-336.0341><1><Sunscorched Trainway><102><78
+O7_TM03: 2344.894><-225.4991><1671.966><-229.9305><1><Sunscorched Trainway><143><35
+O7_TM04: 2341.324><-337.6693><1672.726><-361.8925><1><Sunscorched Trainway><143><35
+O7_megawallvents: -185.8254><404.3654><-55.59325><409.8497><1><Overgrown Urban><118><35
+O7_wallventinside: 2728.931><-89.64618><2019.751><-98.3554><1><Sunscorched Trainway><48><35
+O7_CS0: 3073.283><-84.79297><2316.185><-101.1084><1><Overgrown Urban><52><36
+O7_CS1: 3074.951><105.7418><2316.09><63.47021><1><Overgrown Urban><52><72
+O7_distantview: 2980.127><295.0989><2270.855><287.4706><1><Overgrown Urban><52><39
+O7_CS4: 2716.368><289.3012><2013.56><278.4363><1><Overgrown Urban><116><42
+O7_S01: 3140.44><-229.3002><2283.383><-379.5735><1><><56><35
+O7_S05: 1454.113><505.3253><1084.638><469.6574><1><><48><35
+O7_CS5: 2285.401><299.9904><1697.2><282.4287><1><Overgrown Urban><84><35
+O7_CS6: 2476.955><297.3413><1894.333><285.8254><1><Overgrown Urban><48><35
+O7_dysonfan: 2060.072><305.6549><1550.277><275.6935><1><Overgrown Urban><51><38
+O7_dysonfan2: 2065.458><167.9924><1544.607><116.6962><1><Overgrown Urban><52><43
+O7_dysoninside: 1891.249><151.1595><1340.492><89.78568><1><Overgrown Urban><48><35
+O7_PR01: 1600.552><267.2552><1157.508><77.41292><1><Overgrown Urban><49><103
+O7_TRADER: 1392.868><220.7691><1035.333><94.74117><1><Overgrown Urban><48><35
+O7_weirdfans: 1017.367><-134.4353><606.849><-191.2225><1><Overgrown Urban><120><35
+O7_PR02: 1586.525><506.7581><1156.295><356.302><1><Overgrown Urban><48><38
+O7_workinprogress: 1823.187><653.153><1248.758><533.7568><1><Overgrown Urban><140><35
+O7_abovedyson: 2077.316><468.6249><1543.289><406.5862><1><Overgrown Urban><60><41
+O7_waterhouse1: 923.9236><218.0952><709.5156><39.11763><1><Overgrown Urban><48><35
+O7_waterhouse2: 765.4217><64.04515><600.3266><-52.28317><1><Overgrown Urban><50><73
+O7_waterhouse3: 748.6747><369.451><599.3656><165.5275><1><Overgrown Urban><48><36
+O7_waterhouseroof: 753.3267><594.4727><580.1525><415.0949><1><Overgrown Urban><52><35
+O7_GLOWSIGN: 1022.645><4.145429><734.7046><-77.30598><1><Overgrown Urban><51><36
+O7_S07: 1105.429><214.6239><861.4098><49.57931><1><><48><35
+O7_thethreepipes2: 2011.348><-368.7997><1570.726><-359.059><1><Sunscorched Trainway><48><35
+O7_dysonfanbottom: 1824.733><-309.0027><1452.286><-342.783><1><Overgrown Urban><50><74
+O7_wall: 1826.577><-137.4698><1313.028><-266.4595><1><Overgrown Urban><61><35
+O7_wallafter: 1360.853><-44.78748><891.4499><-146.8523><1><Overgrown Urban><120><77
+O7_wallafter2: 1256.26><-251.8938><888.0542><-260.8094><1><Overgrown Urban><48><35
+O7_DF06: 1600.086><-43.33402><1160.135><-116.2801><1><Overgrown Urban><48><35
+O7_DF07: 1880.582><-14.79904><1315.428><-134.4621><1><Overgrown Urban><48><35
+O7_waterhousepour: 599.0981><-32.86878><467.2308><-39.56889><1><Overgrown Urban><48><35
+O7_TH01: 437.9712><-34.39932><330.8649><-40.08133><1><Overgrown Urban><48><35
+O7_TH02: 32.63345><97.73372><143.095><151.2491><1><Overgrown Urban><48><35
+O7_TH09: -141.9265><96.10611><5.128944><147.3985><1><Overgrown Urban><48><35
+O7_TH03: 36.93364><237.2446><141.4229><265.4269><1><Overgrown Urban><48><35
+O7_TH04: 70.21691><-103.9555><-85.16509><-135.0497><1><Overgrown Urban><192><78
+O7_TH05: 152.0128><362.389><198.428><381.4287><1><Overgrown Urban><98><35
+O7_TH06: -314.1777><-171.2164><-208.7646><-133.3032><1><Overgrown Urban><53><40
+O7_TH07: -602.1347><-173.3483><-486.1767><-132.7828><1><Overgrown Urban><127><37
+O7_TH08: 765.8061><-178.0788><477.4447><-190.0787><1><Overgrown Urban><48><35
+O7_TH10: 518.7508><-172.1826><249.1764><-195.9877><1><Overgrown Urban><105><35
+O7_constructionsite: -495.0668><574.1628><-234.39><536.8372><1><Overgrown Urban><62><63
+O7_ECHO: -494.0671><732.1628><-232.4097><699.9484><1><Overgrown Urban><62><43
+O7_CH01: -419.7547><415.6974><-174.2861><408.7831><1><Overgrown Urban><48><36
+O7_CHscav: -331.8882><95.16422><-160.2769><140.2598><1><Overgrown Urban><70><38
+O7_RH01: -889.3045><-178.7258><-613.5501><-125.3531><1><Overgrown Urban><48><36
+O7_RH02: -890.3821><-47.67838><-614.8475><13.93958><1><Overgrown Urban><48><36
+O7_RH03: -885.6795><93.12183><-616.8475><160.9387><1><Overgrown Urban><51><36
+O7_RH04: -1176.23><93.12183><-890.8526><178.9386><1><Overgrown Urban><131><36
+O7_RH05: -1469.605><91.28472><-1021.138><163.6503><1><Overgrown Urban><54><38
+O7_RH06: -1071.115><-216.877><-770.5097><-252.6465><1><Overgrown Urban><53><81
+O7_CHIEFTAINHOME: -1062.063><-150.6707><-774.6589><-23.91271><1><Overgrown Urban><53><38
+O7_SHELTERUNLORE: -1575.445><-22.66477><-1111.461><64.83611><1><><48><35
+O7_RH07: -1323.542><-302.1045><-996.6517><-256.3168><1><Overgrown Urban><90><35
+O7_BEETLEhouse: -1220.969><-168.9615><-908.6787><-148.025><1><Overgrown Urban><48><34
+O7_secretslop: -1380.674><-158.0119><-1042.865><-154.9661><1><Overgrown Urban><53><38
+O7_RH10: -1653.882><-301.4803><-1147.076><-260.5814><1><Overgrown Urban><48><35
+O7_RH11: -2024.433><-302.1381><-1418.415><-260.8115><1><Overgrown Urban><111><35
+O7_RH12: -2083.446><-177.6644><-1438.461><-101.1641><1><Skyhigh Column of Countless Generations><58><35
+O7_BALLSMALL: -2282.775><-365.8368><-1551.336><-341.0413><1><Overgrown Urban><48><78
+O7_wormroof: -733.2597><-325.5266><-579.3641><-274.339><1><Storage Complex><128><37
+O7_3HOUSES: 818.6851><-451.226><448.199><-494.9539><1><Overgrown Urban><72><121
+O7_S03: 809.5721><-500.3155><326.6456><-416.684><1><><63><27
+O7_SWP02: 495.6808><-840.976><126.863><-750.4518><1><Sewer Swampland><126><35
+O7_SWborder: 806.3351><-704.6721><393.7925><-636.355><1><Sewer Swampland><125><37
+O7_SW03: 208.9414><-782.0089><-1.011638><-743.3099><1><Sewer Swampland><52><73
+O7_SW04: 216.6593><-528.998><10.35685><-547.9916><1><Sewer Swampland><52><73
+O7_SW05: 38.47913><-477.6208><-104.449><-484.8141><1><Storage Complex><52><35
+O7_BALL: 1154.085><470.7802><718.2901><257.3019><1><Overgrown Urban><208><120
+O7_GREENHOUSE: -1637.532><148.6893><-1118.568><168.2091><1><Skyhigh Column of Countless Generations><53><72
+O7_BHview: -2083.639><471.7245><-1459.175><615.7819><1><Skyhigh Column of Countless Generations><70><35
+O7_BHview2NEW: -2088.795><609.6678><-1452.903><749.7783><1><Skyhigh Column of Countless Generations><71><44
+O7_SKYSHELTER: -1808.444><482.1562><-1278.981><617.0977><1><><48><35
+O7_BHmur01: -2080.851><13.78236><-1453.196><58.34175><1><Skyhigh Column of Countless Generations><48><78
+O7_BHmur02: -2087.352><205.7066><-1452.555><262.3894><1><Skyhigh Column of Countless Generations><49><39
+O7_BHmur03: -2086.014><341.5301><-1441.952><444.2159><1><Skyhigh Column of Countless Generations><49><39
+O7_BH02: -1856.364><200.567><-1325.844><265.9399><1><Skyhigh Column of Countless Generations><84><35
+O7_BH03: -1850.466><344.2333><-1281.675><438.8749><1><Skyhigh Column of Countless Generations><48><35
+O7_BH04: -2315.88><345.4735><-1670.472><443.7264><1><Skyhigh Column of Countless Generations><94><35
+O7_BH05: -2307.722><77.40824><-1660.737><162.0105><1><Skyhigh Column of Countless Generations><94><35
+O7_BH06: -2537.722><228.4082><-1818.572><291.855><1><Skyhigh Column of Countless Generations><52><108
+O7_BH07: -2558.712><482.2429><-1815.93><588.2573><1><Skyhigh Column of Countless Generations><76><35
+O7_BH08: -2770.801><436.6975><-1971.05><500.3587><1><Skyhigh Column of Countless Generations><48><78
+O7_BHbox: -2686.911><266.148><-1965.941><343.8904><1><Skyhigh Column of Countless Generations><48><35
+O7_BHflyroom: -2940.911><366.148><-2142.231><480.6014><1><Skyhigh Column of Countless Generations><60><36
+O7_BH09: -2936.273><243.033><-2120.575><342.5483><1><Skyhigh Column of Countless Generations><48><35
+O7_BH10: -3115.069><145.354><-2282.251><214.6442><1><Skyhigh Column of Countless Generations><64><97
+GATE_O7_O8: -3294.863><30.32304><-2406.24><205.0365><1><><48><35
+O7_S06: -3284.746><-88.12732><-2402.187><71.29804><1><><48><35
+O7_noideas: -174.562><-335.2332><-237.476><-396.1992><1><Storage Complex><48><39
+O7_noideas2: -173.7641><-480.7765><-251.8533><-496.5471><1><Storage Complex><62><39
+O7_noideas3: -368.1809><-326.7419><-236.3686><-275.4463><1><Storage Complex><48><35
+O7_batflyideas: 397.2031><-476.3321><136.0941><-492.2223><1><Storage Complex><52><37
+O7_CAVE01: -2321.644><-575.3162><-1678.686><-542.6736><1><><120><36
+O7_CAVE02: -2421.743><-454.1104><-1680.196><-401.7201><1><><48><44
+GATE_O7_TX: -2043.643><-573.3162><-1408.478><-551.4302><1><><48><35
+O7_S08: -2090.743><-486.1103><-1410.034><-405.2978><1><><49><35
+OffScreenDen_O7: 2098.523><35.09986><461.949><549.4738><1><><0><0
+Connection: GATE_O7_AB,O7_SWborder,2,9,109,6,2,3
 Connection: GATE_O7_AB,O7_ARIDSHELTER,11,5,35,17,3,0
-Connection: O7_AB01,O7_SWborder,14,9,109,6,3,3
-Connection: O7_AB01,O7_ABwelcome,113,10,16,4,3,2
 Connection: GATE_O7_TM,O7_TM01,6,11,138,12,2,0
 Connection: O7_TM01,O7_TM02,23,12,93,55,2,0
 Connection: O7_TM01,O7_S01,73,12,38,13,2,0
 Connection: O7_TM02,O7_wallventinside,56,73,30,3,1,3
 Connection: O7_TM02,O7_TM03,5,54,136,12,2,0
 Connection: O7_TM02,O7_TM04,4,13,136,7,2,0
-Connection: O7_TM03,O7_thethreepipes,7,3,44,15,2,0
 Connection: O7_TM04,O7_thethreepipes2,6,17,29,13,2,0
-Connection: O7_thethreepipes,O7_megawallvents,22,33,28,4,1,3
-Connection: O7_thethreepipes,O7_thethreepipes2,20,2,18,29,3,1
-Connection: O7_megawallvents,O7_wallventinside,116,9,3,6,0,2
+Connection: O7_megawallvents,O7_TH05,116,9,2,23,0,2
+Connection: O7_megawallvents,O7_CH01,8,8,44,4,2,0
 Connection: O7_wallventinside,O7_CS0,43,23,5,11,0,2
 Connection: O7_CS0,O7_CS1,4,28,3,12,2,2
-Connection: O7_CS1,O7_CS2,3,68,32,7,2,3
-Connection: O7_CS2,O7_distantview,2,31,40,11,2,3
-Connection: O7_CS2,O7_CS4,3,12,111,17,2,0
-Connection: O7_distantview,O7_S05,4,14,44,11,2,0
+Connection: O7_CS1,O7_distantview,3,68,40,11,2,3
+Connection: O7_distantview,O7_CS4,4,14,111,17,2,0
 Connection: O7_CS4,O7_CS6,7,25,46,19,2,0
+Connection: O7_S05,O7_PR02,44,11,4,12,0,2
 Connection: O7_CS5,O7_CS6,79,16,1,16,0,2
 Connection: O7_CS5,O7_dysonfan,3,12,47,14,2,0
 Connection: O7_dysonfan,O7_abovedyson,7,33,9,8,2,2
@@ -170,14 +160,12 @@ Connection: O7_TH09,O7_TH04,14,1,62,74,3,1
 Connection: O7_TH03,O7_TH05,22,32,10,8,1,3
 Connection: O7_TH04,O7_TH10,176,26,10,20,3,2
 Connection: O7_TH04,O7_TH06,7,15,44,8,2,0
-Connection: O7_TH05,O7_CH01,2,23,44,4,2,0
 Connection: O7_TH06,O7_TH07,3,12,122,7,2,0
 Connection: O7_TH07,O7_RH01,6,5,40,12,2,0
 Connection: O7_TH08,O7_TH10,1,16,97,14,2,0
 Connection: O7_TH08,O7_3HOUSES,9,5,32,107,3,3
 Connection: O7_constructionsite,O7_ECHO,28,56,28,6,3,3
 Connection: O7_constructionsite,O7_CH01,48,7,20,32,0,1
-Connection: O7_S06,GATE_O7_O8,30,24,36,5,0,3
 Connection: O7_RH01,O7_RH02,17,33,20,3,1,3
 Connection: O7_RH01,O7_RH06,4,3,43,37,2,0
 Connection: O7_RH02,O7_RH03,31,34,29,2,1,3
@@ -195,7 +183,6 @@ Connection: O7_RH10,O7_RH11,26,26,99,24,2,0
 Connection: O7_RH11,O7_RH12,11,19,14,11,0,3
 Connection: O7_RH11,O7_BALLSMALL,4,19,45,57,2,0
 Connection: O7_RH12,O7_BHmur01,20,32,18,3,1,3
-Connection: O7_RH12,O7_memory,10,14,46,4,2,0
 Connection: O7_BALLSMALL,O7_CAVE02,7,4,33,18,2,0
 Connection: O7_wormroof,O7_noideas3,123,7,8,18,0,2
 Connection: O7_3HOUSES,O7_S03,29,55,27,21,3,1
@@ -226,6 +213,7 @@ Connection: O7_BH08,O7_BHbox,39,3,10,23,3,1
 Connection: O7_BHflyroom,O7_BH09,31,5,23,31,3,1
 Connection: O7_BH09,O7_BH10,1,16,49,80,2,0
 Connection: O7_BH10,GATE_O7_O8,20,8,45,15,2,0
+Connection: GATE_O7_O8,O7_S06,36,5,30,24,3,0
 Connection: O7_noideas,O7_noideas3,32,29,32,1,3,3
 Connection: O7_noideas,O7_noideas2,38,9,28,33,3,0
 Connection: O7_CAVE01,O7_CAVE02,17,24,13,3,1,3

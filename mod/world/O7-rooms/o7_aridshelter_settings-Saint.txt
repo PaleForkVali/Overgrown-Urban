@@ -1,0 +1,13 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.5016677
+WaveLength: 0.9991661
+WaveAmplitude: 0.01276862
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 107
+EffectColorA: 14
+Effects: SkyDandelions-0-30-30, Darkness-0.1005322-0-0, SandStorm-1-20-20, 
+FadePalette: 2, 0.3247963
+WetTerrain: OFF
+MorePalette0: 0, 0.3804348

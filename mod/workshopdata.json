@@ -1,18 +1,18 @@
 {
-  "Title": "Overgrown Urban MAST CONNECTION (playtest v0.7)",
-  "Description": "region playest 0.7)\r\n\r\nadded MAST CONNECTION",
+  "Title": "Overgrown Urban",
+  "Description": "[img]https://i.imgur.com/oubOHvu.gif[/img] \r\n\r\nRecommended to play with either one of the dlcs, as they add some food and stuff, but it should be fine without. Connects to The Mast (the main connection), Underpass and Arid Barrens!\r\n\r\nAfter a year of nonstop work on this, its finally done. Explore tall mazes of old and overgrown structures of a pre-iterator city. Part of my own small rainworld expansion.\r\n\r\nFeatures: \r\n- custom sleep screen art\r\n- 100\u002B rooms, all with detailed and high effort backgrounds\r\n- tons of amazing music\r\n- unique worldstates for some slugcats ([spoiler]and bad warp[/spoiler]  worldstate for the Watcher)\r\n- custom graffiti and Ancient/Benefactor murals\r\n- new [spoiler]Echo[/spoiler] ([spoiler] Shining Petals upon Endless Orchids [/spoiler])\r\n- 4 new arenas\r\n- 3 lore pearls (1 accesible for the Watcher in[spoiler]bad warp, with unique pearl reader interaction[/spoiler])\r\n- optional Arid Barrens connection\r\n\r\n\r\nRecommendations:\r\n- I highly recommend playing as Survivor for the first time, enter from The Mast (enter from: [spoiler] TM_D06 [/spoiler]), and leave from Underpass. (Arid Barrens if you want a little faster way of traveling to LTTM with pearls)\r\n- for second playtrough, I recommend either Spearmaster/Artificer, which both offer more harsh, challenging worldstate, almost feels like you\u0027re not supposed to be there.\r\n\r\nCredits: \r\n- Saturn - region art\r\n- seqoia7 - pearl writing help and changes\r\n- NV - custom code for the region\r\n- M4rbleline - bug ambience sounds\r\n- damoonlord__ - Spearmaster/Artificer worldstate idea\r\n- Music - p01yphemmus, Dissonified, Ethanwantsfood, tetraneo, seqoia7\r\n- Arenas (Tussock, Stacks) - Ethanwantsfood\r\n- Playtesting: maglev, MM, Renny, Fiveruukss, SageisNice, totallydutch, aprilistheworstmonth, Anthro, Bread, Neri\r\n- Modhole and Rain World modding server - help with some stuff and fixing problems and random cool ideas \r\n- Ancient/Benefactor designs for the murals - Zenala, MatologMeatball\r\n- The Wawa Gang - keeping my sanity up while I was doing all of this, playtesting, pearlwriting, and alot of general help, thank yall so much for all the support \u003C3\r\n\r\nAdditional support:\r\n- ULTRAKILL style region names.",
   "ID": "vali_overgrownurban",
-  "Version": "1.0.5",
+  "Version": "1.2.0",
   "TargetGameVersion": "v1.9.06",
-  "Requirements": "crs,regionkit,lb-fgf-m4r-ik.modpack,ludocrypt.betterdecals",
-  "RequirementNames": "Custom Region Support,RegionKit,TheM4rblelous Entity Pack,BetterDecals",
+  "Requirements": "crs,regionkit,lb-fgf-m4r-ik.modpack,slime-cubed.slugbase,sequoia.parascutigera-creature,themast,underpass_will",
+  "RequirementNames": "Custom Region Support,RegionKit,TheM4rblelous Entity Pack,Slugbase,Parascutigera",
   "Authors": "Vali",
-  "Visibility": "Unlisted",
+  "Visibility": "Public",
   "Tags": [
     "Arenas",
     "Regions"
   ],
-  "WorkshopID": 3441930413,
+  "WorkshopID": 3618955060,
   "UploadFilesOnly": false,
   "UploadThumbnail": false
 }

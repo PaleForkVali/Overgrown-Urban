@@ -1,6 +1,5 @@
 Template: o7_settingstemplate_outside
 Clouds: 0.04639933
-BkgDroneVolume: 0
 Palette: 30
 EffectColorA: 13
 Effects: Fog-0.2173913-40-40, Moth-0.07608695-60-60, 

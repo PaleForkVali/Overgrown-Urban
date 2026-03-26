@@ -1,0 +1,22 @@
+Template: o7_settingstemplate_snowouts
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 1
+WaveSpeed: 0.5887345
+WaveLength: 0.9556327
+WaveAmplitude: 3.347158E-15
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1779099
+Grime: 0.1193499
+Palette: 2
+EffectColorA: 6
+EffectColorB: 2
+Effects: Fog-0.5645266-269.7219-38.48889, Flies-0.0326087-30-30, 
+PlacedObjects: CustomDecal><3597.305><146.5435><-104~186~503~521~593~300~-319~-56~0.3152174~0.5217391~0.5217391~ChaoticB&W2~0.6630435~0.7717391~0.173913~0.1847826~0.5978261~0.423913~0.04347826~0.8260869, DangleFruit><6011.672><92.3524><4~78~2~3, CustomDecal><4734.45><328.2557><64~90~259~103~369~31~-394~46~0~1~0~BlackRust1~0.3043478~0.2934783~0.5~0.2934783~0.326087~0.2934783~0.3804348~0.2934783, ReliableSpear><1326.551><301.4903><, DangleFruit><874><566><4~78~2~3, CustomDecal><729.4441><244.0481><-6~132~283~104~268~-28~-608.9614~-14.03001~0~1~0~whitejunkarrows~0.5~0.5652174~0.2173913~0~0.5~0.3043478~0.4347826~0, CustomDecal><1403.609><284.4176><-17~124~108~112~94~-5~303~-53~0~1~0~ghostling2~0.5~0.2391304~0.5~0~0.3695652~0~0.5~0, CustomDecal><2143.7><177.0099><13~194~554~125~502~-27~300~111~0~1~0~angularwhiteols~0.4565217~0~0.5~0.2826087~0.2934783~0~0.5~0, SnowSource><1244.092><437.873><Radial~499~-419~50~86.60254~0.6521739~1, SnowSource><472><421><Radial~499~-419~50~86.60254~0.6521739~1, LocalBlizzard><2029.843><560.6265><-889~-532~-823~-70.39746~0.4130435~0.5~0.7717391, LanternOnStick><1426.473><379.3018><-66~-112, LocalBlizzard><661><566><-889~-532~-823~-70.39746~0.1521739~0.5~0.7717391, 
+AmbientSounds: OMNI><am_env-outside.ogg><526.1854><485.325><0><1, SPOT><am_win-howlingwnd.ogg><796.4399><450.1873><0.6739131><1><1907.44><671.1874><-403.3553><-389.3553><0><0.9913045, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>bm_cc_canopy<eA>vol<eB>0.4086961<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>711.3144<tB>214.6756<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1732.314<tB>435.6756<tA>handlePos<tB>-465.3553<tB>-353.3553, 
+FadePalette: 105, 0.8586956, 0.8804348
+WetTerrain: OFF
+MorePalette0: 37, 0.4021739, 0.5
+MorePalette1: 10, 0.173913, 0.2717391

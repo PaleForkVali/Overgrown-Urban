@@ -1,35 +1,47 @@
 CONDITIONAL LINKS
 
 Spear,Artificer : REPLACEROOM : O7_workinprogress : O7_workinprogressnotoll
+Rivulet,Saint : REPLACEROOM : O7_TH08 : O7_TH08greens
+
+Saint : GATE_O7_TM : O7_TM01 : DISCONNECTED
+Saint : O7_TM01 : GATE_O7_TM : DISCONNECTED
+Saint : O7_TM01 : 1 : O7_GATE_O7_XM
+Saint : O7_GATE_O7_XM : 1 : O7_TM01
+
+Spear,Artificer,Gourmand,Red,White,Yellow,Rivulet,Inv : HIDEROOM : O7_GATE_O7_XM
+Spear,Artificer,Gourmand,Red,White,Yellow,Rivulet,Inv : HIDEROOM : O7_XM01
+Saint : HIDEROOM : GATE_O7_TM
 
 END CONDITIONAL LINKS
 
 ROOMS
 
-GATE_O7_AB : O7_ABwelcome, DISCONNECTED, O7_ARIDSHELTER : GATE
+O7_GATE_O7_XM : DISCONNECTED, O7_XM01
+O7_XM01 : O7_GATE_O7_XM
+
+GATE_O7_AB : O7_SWborder, DISCONNECTED, O7_ARIDSHELTER : GATE
 O7_ARIDSHELTER : GATE_O7_AB : SHELTER
-O7_AB01 : O7_SWborder, O7_ABwelcome
-O7_ABwelcome : O7_AB01, GATE_O7_AB
 
 
 GATE_O7_TM : O7_TM01, DISCONNECTED : GATE
 O7_TM01 : O7_TM02, O7_S01, GATE_O7_TM
 O7_TM02 : O7_wallventinside, O7_TM01, O7_TM03, O7_TM04
-O7_TM03 : O7_TM02, O7_thethreepipes
+O7_TM03 : DISCONNECTED, O7_TM02
 O7_TM04 : O7_thethreepipes2, O7_TM02
-O7_thethreepipes : O7_megawallvents, O7_TM03, O7_thethreepipes2
-O7_megawallvents : O7_wallventinside, O7_thethreepipes
+//O7_thethreepipes : O7_megawallvents, O7_TM03, O7_thethreepipes2
 
-O7_wallventinside : O7_CS0, O7_megawallvents, O7_TM02
+O7_megawallvents : O7_TH05, O7_CH01
+
+O7_wallventinside : O7_CS0, DISCONNECTED, O7_TM02
 
 //cloudstart
 O7_CS0 : O7_CS1, O7_wallventinside
-O7_CS1 : O7_CS2, O7_CS0
-O7_CS2 : O7_distantview, O7_CS4, O7_CS1 : SWARMROOM
-O7_distantview : O7_S05, O7_CS2
-O7_CS4 : O7_CS6, O7_CS2
+O7_CS1 : O7_distantview, O7_CS0
+//O7_CS2 : O7_distantview, O7_CS4, O7_CS1 : SWARMROOM
+O7_distantview : O7_CS4, O7_CS1
+O7_CS4 : O7_CS6, O7_distantview
 O7_S01 : O7_TM01 : SHELTER
-O7_S05 : O7_distantview : SHELTER
+O7_S05 : O7_PR02 : SHELTER
 O7_CS5 : O7_CS6, O7_dysonfan
 O7_CS6 : O7_CS4, O7_CS5
 
@@ -40,7 +52,7 @@ O7_dysoninside : O7_PR01, O7_dysonfan2, O7_DF07
 O7_PR01 : O7_PR02, O7_BALL, O7_TRADER, O7_dysoninside
 O7_TRADER : O7_PR01 : SCAVTRADER
 O7_weirdfans : O7_TH08, O7_wallafter
-O7_PR02 : O7_workinprogress, O7_PR01
+O7_PR02 : O7_workinprogress, O7_S05, O7_PR01
 O7_workinprogress : O7_abovedyson, O7_PR02 : SCAVOUTPOST
 O7_abovedyson : O7_workinprogress, O7_dysonfan : SWARMROOM
 
@@ -55,7 +67,7 @@ O7_GLOWSIGN : O7_wallafter, O7_waterhouse2
 O7_S07 : O7_waterhouse1 : ANCIENTSHELTER
 
 //dysons and random
-O7_thethreepipes2 : O7_thethreepipes, O7_TM04, O7_dysonfanbottom
+O7_thethreepipes2 : DISCONNECTED, O7_TM04, O7_dysonfanbottom
 O7_dysonfanbottom : O7_wall, O7_thethreepipes2
 O7_wall : O7_DF07, O7_dysonfanbottom
 O7_wallafter : O7_GLOWSIGN, O7_DF06, O7_weirdfans, O7_wallafter2
@@ -75,11 +87,11 @@ O7_TH02 : O7_TH03, O7_TH09, DISCONNECTED
 O7_TH09 : O7_CHscav, O7_TH02, O7_TH04
 O7_TH03 : O7_TH05, O7_TH02
 O7_TH04 : O7_TH09, O7_TH01, O7_TH10, O7_TH06
-O7_TH05 : O7_CH01, O7_TH03
+O7_TH05 : O7_megawallvents, O7_TH03
 O7_TH06 : O7_TH07, O7_TH04, DISCONNECTED
 O7_TH07 : O7_RH01, O7_TH06
 
-O7_TH08 : O7_TH10, O7_weirdfans, O7_3HOUSES
+O7_TH08 : O7_TH10, O7_weirdfans, O7_3HOUSES : SCAVTRADER
 
 O7_TH10 : O7_TH04, O7_TH08
 
@@ -87,9 +99,8 @@ O7_constructionsite : O7_ECHO, O7_CH01
 O7_ECHO : O7_constructionsite
 
 //chimney city
-O7_CH01 : O7_constructionsite, O7_TH05, DISCONNECTED
+O7_CH01 : O7_constructionsite, O7_megawallvents, DISCONNECTED
 O7_CHscav : O7_TH09
-O7_S06 : GATE_O7_O8 : SHELTER
 
 //randomhouse
 O7_RH01 : O7_RH02, O7_RH06, O7_TH07
@@ -128,7 +139,7 @@ O7_S03 : O7_3HOUSES : SHELTER
 //O7_SWfish : O7_SWP01, DISCONNECTED
 //O7_SWP01 : O7_SWfish, DISCONNECTED, DISCONNECTED
 O7_SWP02 : O7_SWborder, O7_SW03
-O7_SWborder : O7_3HOUSES, O7_SWP02, O7_AB01
+O7_SWborder : O7_3HOUSES, O7_SWP02, GATE_O7_AB
 O7_SW03 : O7_SW04, DISCONNECTED, O7_SWP02
 O7_SW04 : O7_SW05, O7_batflyideas, O7_SW03
 O7_SW05 : O7_SW04, O7_noideas2
@@ -158,9 +169,17 @@ O7_BH07 : O7_BH08, O7_BH04
 O7_BH08 : O7_BH07, O7_BHflyroom, O7_BHbox
 O7_BHbox : O7_BH08, O7_BH06
 O7_BHflyroom : O7_BH08, O7_BH09 : SWARMROOM
+
+// 
+
 O7_BH09 : O7_BHflyroom, DISCONNECTED, O7_BH10
+
+//O7_BH09 : O7_BHflyroom, DISCONNECTED, DISCONNECTED
+
+
 O7_BH10 : O7_BH09, GATE_O7_O8
-GATE_O7_O8 : DISCONNECTED, O7_BH10, DISCONNECTED, O7_S06 : GATE
+GATE_O7_O8 : O7_BH10, DISCONNECTED, O7_S06 : GATE
+O7_S06 : GATE_O7_O8 : SHELTER
 
 //O7_memory : O7_RH12
 
@@ -180,87 +199,95 @@ END ROOMS
 
 CREATURES
 
-OFFSCREEN : 0-Scavenger-17, 0-Vulture-4, 0-ScavengerSentinel-4, 0-Scavenger-{Seed:7567}-1, 0-MirosBird-3, 0-Elite-1
-(Spear,Artificer)OFFSCREEN : 0-Scavenger-11, 0-Vulture-4, 0-KingVulture-3, 0-MirosBird-3
-(Saint)OFFSCREEN : 0-MirosVulture-{Night}-4, 0-Scavenger-14, 0-Vulture-3, 0-MirosBird-3, 0-ScavengerSentinel-7, 0-Elite-2
+(X-Spear,Artificer,Saint,Inv)OFFSCREEN : 0-Scavenger-17, 0-Vulture-4, 0-ScavengerSentinel-3, 0-Scavenger-{Seed:7567}-1
+(Spear,Artificer)OFFSCREEN : 0-Scavenger-11, 0-Vulture-4, 0-KingVulture-3
+(Saint)OFFSCREEN : 0-Scavenger-12, 0-Vulture-3, 0-ScavengerSentinel-5, 0-Elite-2, 0-MirosVulture-{Night}-4
 (Inv)OFFSCREEN : 0-TintedBeetle-10, 0-ThornBug-20
 
 (Spear,Artificer)O7_workinprogress : 2-SpitLizard-1
-O7_dysonfan2 : 2-BigNeedleWorm-1, 2-SmallNeedleWorm-2
-O7_dysoninside : 4-WhiteLizard-2, 3-EggBug-1
-O7_roomafterpipe : 2-PinkLizard-1
-O7_waterhouseroof : 1-CicadaA-2
-O7_waterhouse2 : 4-PinkLizard-1
+(X-Saint)O7_dysonfan2 : 2-BigNeedleWorm-1, 2-SmallNeedleWorm-2
+(X-Saint)O7_dysoninside : 4-WhiteLizard-2, 3-EggBug-1
+(Saint)O7_dysoninside : 4-WhiteLizard-2
+O7_waterhouseroof : 2-Centiwing-1
+(X-Saint)O7_waterhouse2 : 4-PinkLizard-1
 O7_climbup : 2-Centiwing-2
-O7_roomafterpipe : 2-Centipede-3
 (White,Yellow)O7_megawallvents : 4-PinkLizard-1, 2-CicadaA-2, 3-Hoverfly-2
-O7_megawallvents : 4-RedLizard-1, 2-CicadaA-2, 3-Hoverfly-2
+(X-White,Yellow)O7_megawallvents : 4-RedLizard-1, 2-CicadaA-2, 3-Hoverfly-2
 (White,Yellow)O7_weirdfans : 2-Centiwing-1, 3-PinkLizard-1
-O7_weirdfans : 2-Centiwing-1, 3-RedLizard-1
-O7_waterhouse3 : 3-Centipede-2
+(X-White,Yellow)O7_weirdfans : 2-Centiwing-1, 3-RedLizard-1
 O7_connectingpipe : 3-DropBug-1
 O7_dysonfanbottom : 3-hoverfly-2
 O7_waterhousepour : 3-PoleMimic-1
-O7_waterhousepour2 : 2-BigNeedleWorm-1, 3-WhiteLizard-2
+(X-Saint)O7_waterhousepour2 : 2-BigNeedleWorm-1, 3-WhiteLizard-2
+(Saint)O7_waterhousepour2 : 3-WhiteLizard-2
 (White,Yellow)O7_TH03 : 2-EggBug-1
-O7_TH03 : 2-ThornBug-2
+(X-White,Yellow,Saint)O7_TH03 : 2-ThornBug-2
+(Saint)O7_TH03 : 2-Scavenger-1
 O7_TH04 : 4-YellowLizard-2, 5-YellowLizard-3, 6-AlphaOrange-2
-O7_TH07 : 3-TubeWorm-2, 2-hoverfly-2
+(X-Saint)O7_TH07 : 3-TubeWorm-2, 2-hoverfly-2
+(Saint)O7_TH07 : 2-hoverfly-2
 O7_wallafter : 4-Centiwing-1
 (White,Yellow)O7_DF07 : 3-GreenLizard-1, 4-PoleMimic-{15}
-O7_DF07 : 3-RedCentipede-1, 4-PoleMimic-{15}
-O7_RH01 : 3-TubeWorm-2
+(X-White,Yellow)O7_DF07 : 3-RedCentipede-1, 4-PoleMimic-{15}
+(X-Saint)O7_RH01 : 3-TubeWorm-3
+(Saint)O7_RH01 : 3-ZoopLizard-1
 O7_RH03 : 2-Hoverfly-1
-O7_CS4 : 3-YellowLizard-1, 2-YellowLizard-2
-O7_SWP01 : 3-Salamander-2
+O7_CS4 : 3-YellowLizard-2, 2-YellowLizard-2
 O7_BALL : 2-YellowLizard-4, 3-AlphaOrange-2, 7-YellowLizard-3
-O7_shaft : 3-Scavenger-2
-O7_3HOUSES : 3-BigNeedleWorm-1, 4-SmallNeedleWorm-2
-O7_SWborder : 3-Hoverfly-2
+(X-Saint)O7_3HOUSES : 3-BigNeedleWorm-1, 4-SmallNeedleWorm-2
+O7_SWborder : 3-hoverfly-2
 O7_elevatorshaft : 3-CicadaA-2, 4-CicadaB-1
-O7_TH09 : 3-DropBug-1
-O7_TM01 : 3-SmallNeedleWorm-3, 4-BigNeedleWorm-1
+O7_TH09 : 3-TintedBeetle-1
+(Saint)O7_TM01 : 5-YellowLizard-3
+(X-Saint)O7_TM01 : 3-SmallNeedleWorm-3, 4-BigNeedleWorm-1
 (White,Yellow)O7_TM02 : 4-PinkLizard-1
-O7_TM02 : 4-CyanLizard-2
+(X-White,Yellow)O7_TM02 : 4-CyanLizard-1
 (White,Yellow)O7_TH10 : 3-DropBug-1
-O7_TH10 : 3-DropBug-2
-O7_BHmur02 : 3-SmallNeedleWorm-2, 4-BigNeedleWorm-1
-O7_GREENHOUSE : 4-PoleMimic-{15}, 3-TintedBeetle-2, 2-PinkLizard-1
+(X-White,Yellow)O7_TH10 : 3-DropBug-2
+(X-Saint)O7_BHmur02 : 3-SmallNeedleWorm-2, 4-BigNeedleWorm-1
+(X-Saint)O7_GREENHOUSE : 4-PoleMimic-{15}, 3-TintedBeetle-2, 2-PinkLizard-1
+(Saint)O7_GREENHOUSE : 4-PoleMimic-{15}, 2-ZoopLizard-1
 
-O7_PR02 : 2-Hoverfly-2
-O7_waterhouse3 : 4-TintedBeetle-3
-O7_BH06 : 4-ScavengerSentinel-1, 5-Scavenger-2
+O7_PR02 : 3-Hoverfly-2
+(X-Saint)O7_waterhouse3 : 4-TintedBeetle-3
+(Saint)O7_waterhouse3 : 4-ZoopLizard-1
+O7_BH06 : 4-ScavengerSentinel-1, 5-Centiwing-2
 (White,Yellow)O7_BH04 : 4-CicadaA-3, 3-CicadaB-2, 5-GreenLizard-1
-O7_BH04 : 4-CicadaA-3, 3-CicadaB-2, 5-CyanLizard-2
-O7_BH07 : 2-TintedBeetle-3
+(X-White,Yellow)O7_BH04 : 4-CicadaA-3, 3-CicadaB-2, 5-CyanLizard-2
+(X-Saint)O7_BH07 : 2-TintedBeetle-3
+(Saint)O7_BH07 : 2-ZoopLizard-1
 O7_wallafter : 5-parascutigera-1
 O7_Wall : 2-Hoverfly-1
 O7_BH05 : 3-WhiteLizard-1
 (White,Yellow)O7_RH07 : 2-parascutigera-1
-O7_RH07 : 2-SpitLizard-1
-O7_thethreepipes : 3-parascutigera-1
-O7_dysonfan : 3-TintedBeetle-2
+(X-White,Yellow)O7_RH07 : 2-SpitLizard-1
+O7_thethreepipes2 : 3-parascutigera-1
+(X-Saint)O7_dysonfan : 3-TintedBeetle-2
+(Saint)O7_dysonfan : 3-ZoopLizard-1
 
 O7_BH08 : 3-DropBug-1
 
-O7_CS1 : 2-Hoverfly-2
-O7_TH02 : 4-GreenLizard-1
+O7_CS1 : 2-Centiwing-2
+(X-Saint)O7_TH02 : 4-GreenLizard-1
 O7_noideas : 2-Hoverfly-3
 O7_BH10 : 2-Hoverfly-2
 O7_TH05 : 3-Hoverfly-2
 
-O7_wallventinside : 3-ThornBug-2
-O7_TH08 : 3-ThornBug-2
-O7_BHbox : 2-ThornBug-3
-O7_RH02 : 3-PinkLizard-1, 2-ThornBug-2
-O7_PR01 : 4-ThornBug-2
-O7_RH11 : 3-ThornBug-2
+(X-Saint)O7_wallventinside : 3-ThornBug-1
+(X-Rivulet,Saint)O7_TH08 : 3-ThornBug-1
+(X-Saint)O7_BHbox : 2-ThornBug-2
+(X-Saint)O7_RH02 : 3-PinkLizard-1, 2-ThornBug-1
+(X-Saint)O7_PR01 : 4-ThornBug-2
+(X-Saint)O7_RH11 : 3-EggBug-2
 
 O7_CAVE01 : 2-Snail-1, 3-Snail-2
 
 O7_BALLSMALL : 2-YellowLizard-1, 3-YellowLizard-1
 
-O7_noideas3 : 3-TubeWorm-2
+(X-Saint)O7_noideas3 : 3-TubeWorm-2
+
+(X-Saint)O7_distantview : 3-TintedBeetle-3, 2-Hoverfly-1
+(Saint)O7_distantview : 3-ZoopLizard-1
 
 END CREATURES
 

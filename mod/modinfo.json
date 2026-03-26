@@ -1,12 +1,12 @@
 ﻿{
   "id": "vali_overgrownurban",
-  "name": "Overgrown Urban (playtest v0.1)",
-  "version": "1.0.1",
+  "name": "Overgrown Urban",
+  "version": "1.2.0",
   "authors": "Vali",
-  "description": "region playest 0.1",
-  "requirements": [ "crs", "regionkit", "ludocrypt.betterdecals", "slime-cubed.slugbase", "fisobs" ],
-  "requirements_names": [ "Custom Region Support", "RegionKit", "BetterDecals", "Slugbase", "Fisobs" ],
+  "description": "Explore old, overgrown city overtaken by nature.",
+  "requirements": [ "crs", "regionkit", "lb-fgf-m4r-ik.modpack", "slime-cubed.slugbase", "sequoia.parascutigera-creature","themast","underpass_will" ],
+  "requirements_names": [ "Custom Region Support", "RegionKit", "TheM4rblelous Entity Pack", "Slugbase", "Parascutigera", "The Mast", "Underpass" ],
   "checksum_override_version": false,
-  "priorities": [ "moreslugcats", "themast", "underpass_will" ],
-  "tags": [ "cosmetics" ]
+  "priorities": [ "moreslugcats", "jam.aridbarrens", "watcher" ],
+  "tags": [ "arenas", "regions" ]
 }

@@ -1,0 +1,7 @@
+Clouds: 0.04347826
+EffectColorB: 16
+PlacedObjects: LightSource><859.2397><730.1997><0.02173913~Environment~-784~-742~-812.9999~-277.3975~1~1~None~0~0, CustomDecal><-88.08929><6.619005><-19~758~1253~536~1346~-1~37~223~0~1~0~greybones~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, CustomDecal><-101><240><-101~-353~881~-419~1346~-1~37~223~0~1~0~greybones~0.1413043~1~0.1413043~1~0.1413043~1~0.1413043~1, DynamicWarpTarget><551.5281><381.698><0~0~0~false~true, GooDrips><551.1978><83.22025><0~100~0~0~0.5, 
+AmbientSounds: OMNI><am_win-howlingwnd.ogg><725.5538><485.4615><0.326087><1, OMNI><WAO7 - rotlizard in the distance.ogg><796.2551><532.55><0.06521739><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>rw_76 - not your rain<eA>vol<eB>0.3978268<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>0<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>852.1534<tB>481.3249<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>566.1534<tB>413.3249<tA>handlePos<tB>-599.3553<tB>-280.3553, 
+FadePalette: 1234567, 1
+MorePalette0: 7, 0.07608695

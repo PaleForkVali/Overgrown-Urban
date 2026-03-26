@@ -2,8 +2,6 @@ RainIntensity: 0.75
 RumbleIntensity: 0.5217391
 Clouds: 0.1304348
 Grime: 0.04347826
-BkgDroneVolume: 0
-BkgDroneNoThreatVolume: 0
 EffectColorA: 14
 TerrainLight: 0.5309329
 TerrainStainHeight: 0.595459

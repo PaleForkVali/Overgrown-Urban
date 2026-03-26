@@ -1,5 +1,4 @@
 Template: o7_settingstemplate_rainouts
-RumbleIntensity: 0.3117414
 Clouds: 0.07608695
 EffectColorA: 6
 Effects: Fog-0.2391304-20-20, 

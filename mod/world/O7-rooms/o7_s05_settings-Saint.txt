@@ -1,0 +1,11 @@
+Template: o7_settingstemplate_snowins
+CeilingDrips: 0
+WaveSpeed: 0.5004486
+WaveLength: 0.9997757
+WaveAmplitude: 1.433169E-13
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+FadePalette: 2, 0.5326087
+WetTerrain: OFF
+MorePalette0: 3, 0.4330617
+MorePalette1: 37, 0.2391304

@@ -1,0 +1,44 @@
+{"frames": {
+
+"LizardEyes3.77.png":
+{
+	"frame": {"x":0,"y":0,"w":15,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":6},
+	"sourceSize": {"w":15,"h":6}
+},
+"LizardEyes1.77.png":
+{
+	"frame": {"x":15,"y":0,"w":5,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":6},
+	"sourceSize": {"w":5,"h":6}
+},
+"LizardEyes0.77.png":
+{
+	"frame": {"x":20,"y":0,"w":4,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":4,"h":6},
+	"sourceSize": {"w":4,"h":6}
+},
+"LizardEyes2.77.png":
+{
+	"frame": {"x":24,"y":0,"w":13,"h":7},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":7},
+	"sourceSize": {"w":13,"h":7}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "LizardEyes77.png",
+	"format": "RGBA8888",
+	"size": {"w":37,"h":7},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:cf2a80914b3eceed48bfb2129bc70ca4:d60c810a57b28516b719e53bf6c6da13:0180d5e0cce1563ca70a69abdb17ac75$"
+}
+}
