@@ -17,7 +17,7 @@ sealed class Plugin : BaseUnityPlugin
     public new static ManualLogSource Logger;
     bool isInit;
     bool isEnablePassed = false;
-    public const bool devMode = true;
+    public const bool devMode = false;
     public const byte ticksPerSecond = 40;
 
     public void OnEnable()
