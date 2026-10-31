@@ -145,11 +145,9 @@ namespace OvergrownUrban.CreatureLight
                 {
                     s.Append("|");
                 }
-                else
-                {
-                    s.Append("]");
-                }
             }
+
+            s.Append("]");
 
             return SaveUtils.AppendUnrecognizedStringAttrs(s.ToString(), "~", unrecognizedAttributes);
         }
