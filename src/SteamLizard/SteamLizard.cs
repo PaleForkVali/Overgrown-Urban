@@ -42,7 +42,7 @@ public class SteamLizard(AbstractCreature abstractCreature, World world) : Lizar
 	
 	
 	//don't touch
-	const ushort maxSteamingChargeUpTicks = (ushort)(maxSteamingChargeUpSeconds * Plugin.ticksPerSecond);
+	const ushort maxSteamingChargeUpTicks = (ushort)(maxSteamingChargeUpSeconds * 40f);
 	
 	#endregion
 
