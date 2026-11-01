@@ -18,6 +18,8 @@ namespace OvergrownUrban.CreatureLight
 
         public Vector2 detectorHandle;
 
+        public float innerDetectionRad;
+
         public Color[] colour = new Color[2];
         
         public ColorType[] colorType = new ColorType[2];
@@ -54,6 +56,7 @@ namespace OvergrownUrban.CreatureLight
         {
             lightHandle = new Vector2(0f, 100f);
             detectorHandle = new Vector2(0f, 50f);
+            innerDetectionRad = 0.5f;
 
             panelPos = Custom.DegToVec(30f) * 100f;
 
@@ -84,9 +87,11 @@ namespace OvergrownUrban.CreatureLight
             detectorHandle.x = float.Parse(data[4], System.Globalization.NumberStyles.Float);
             detectorHandle.y = float.Parse(data[5], System.Globalization.NumberStyles.Float);
 
+            innerDetectionRad = float.Parse(data[6], System.Globalization.NumberStyles.Float);
+
             for (int l = 0; l < 2; l++)
             {
-                int i = 6 + (l * 10);
+                int i = 7 + (l * 10);
 
                 colour[l] = new Color(
                     float.Parse(data[i], System.Globalization.NumberStyles.Float),
@@ -104,7 +109,7 @@ namespace OvergrownUrban.CreatureLight
                 nightLight[l] = bool.Parse(data[i + 9]);
             }
 
-            string[] critData = data[26].Substring(1, data[26].Length - 2).Split('|');
+            string[] critData = data[27].Substring(1, data[27].Length - 2).Split('|');
             if (critData.Length > 0 && critData[0] != "")
             {
                 for (int c = 0; c < critData.Length; c++)
@@ -122,6 +127,7 @@ namespace OvergrownUrban.CreatureLight
 
             s.Append(lightHandle.x).Append("~").Append(lightHandle.y).Append("~");
             s.Append(detectorHandle.x).Append("~").Append(detectorHandle.y).Append("~");
+            s.Append(innerDetectionRad).Append("~");
 
             for (int i = 0; i < 2; i++)
             {

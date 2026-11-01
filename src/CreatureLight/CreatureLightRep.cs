@@ -199,7 +199,7 @@ namespace OvergrownUrban.CreatureLight
                         MoveSprite(fSprites.IndexOf(fSprites[fSprites.Count - 1]), absPos + new Vector2(size.x / 2f, size.y - 25f));
                         fSprites[fSprites.Count - 1].scaleX = size.x;
 
-                        fLabels[0].text = title + "(" + (page + 1) + "/" + buttons.Count + ")";
+                        fLabels[0].text = title + " (" + (page + 1) + "/" + buttons.Count + ")";
 
                         prev.MoveLabel(0, prev.absPos + new Vector2(prev.size.x / 2f, 1f));
                         prev.fLabels[0].alignment = FLabelAlignment.Center;
@@ -436,9 +436,10 @@ namespace OvergrownUrban.CreatureLight
 
             public FLabel labelB;
 
-            public CreatureLightPanel(DevUI owner, string IDstring, DevUINode parentNode, Vector2 pos, string name) : base(owner, IDstring, parentNode, pos, new Vector2(250f, 225f), name)
+            public CreatureLightPanel(DevUI owner, string IDstring, DevUINode parentNode, Vector2 pos, string name) : base(owner, IDstring, parentNode, pos, new Vector2(250f, 245f), name)
             {
-                subNodes.Add(new Button(owner, "Detector_Button", this, new Vector2(5f, 205f), 240f, "Triggers"));
+                subNodes.Add(new Button(owner, "Detector_Button", this, new Vector2(5f, 225f), 240f, "Triggers"));
+                subNodes.Add(new SignalSlider(owner, "DetectorRad_Slider", this, new Vector2(5f, 205f), "Inner Detect Rad: ", false, 110f, data.innerDetectionRad) { NumberText = (Mathf.Round(data.innerDetectionRad * 100f) / 100f).ToString() });
 
                 for (int i = 0; i < 2; i++)
                 {
@@ -510,7 +511,7 @@ namespace OvergrownUrban.CreatureLight
 
             subNodes.Add(detectionHandle = new Handle(owner, "detectionHandle", this, data.detectorHandle));
 
-            fSprites.Add(new FSprite("Futile_White") { shader = owner.room.game.rainWorld.Shaders["VectorCircle"] });
+            fSprites.Add(new FSprite("Futile_White") { shader = owner.room.game.rainWorld.Shaders["VectorCircle"], color = Color.magenta });
             fSprites.Add(new FSprite("pixel") { anchorY = 0f });
             fLabels.Add(new FLabel(Custom.GetFont(), "Detection rad"));
             owner.placedObjectsContainer.AddChild(fSprites[3]);
@@ -519,6 +520,9 @@ namespace OvergrownUrban.CreatureLight
 
             fSprites.Add(new FSprite("pixel") { anchorY = 0f });
             owner.placedObjectsContainer.AddChild(fSprites[5]);
+
+            fSprites.Add(new FSprite("Futile_White") { shader = owner.room.game.rainWorld.Shaders["VectorCircle"], color = Color.magenta });
+            owner.placedObjectsContainer.AddChild(fSprites[6]);
         }
 
         public override void Refresh()
@@ -556,6 +560,10 @@ namespace OvergrownUrban.CreatureLight
             MoveSprite(5, absPos);
             fSprites[5].scaleY = panel.pos.magnitude;
             fSprites[5].rotation = Custom.AimFromOneVectorToAnother(absPos, panel.absPos);
+
+            MoveSprite(6, absPos);
+            fSprites[6].scale = (detectionHandle.pos.magnitude * data.innerDetectionRad) / 8f;
+            fSprites[6].alpha = 2f / (detectionHandle.pos.magnitude * data.innerDetectionRad);
         }
 
         public void Signal(DevUISignalType type, DevUINode sender, string message)
@@ -580,6 +588,12 @@ namespace OvergrownUrban.CreatureLight
             {
                 data.strength[id.EndsWith("A") ? 0 : 1] = float.Parse(message, System.Globalization.NumberStyles.Float);
                 (sender as SignalSlider).NumberText = Mathf.Round(data.strength[id.EndsWith("A") ? 0 : 1] * 100f) + "%";
+            }
+
+            if (id.Contains("DetectorRad_Slider"))
+            {
+                data.innerDetectionRad = float.Parse(message, System.Globalization.NumberStyles.Float);
+                (sender as SignalSlider).NumberText = (Mathf.Round(data.innerDetectionRad * 100f) / 100f).ToString();
             }
 
             if (id.Contains("Color_Button"))

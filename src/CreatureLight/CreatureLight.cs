@@ -17,7 +17,32 @@ namespace OvergrownUrban.CreatureLight
 
         public LightSource[] Light;
 
-        public bool CritDetected => room.abstractRoom.creatures.FindAll(c => c.realizedCreature != null && data.creaturesToDetect.Contains(c.creatureTemplate.type) && Custom.DistLess(c.realizedCreature.mainBodyChunk.pos, pObj.pos, data.DetectRad)).Count > 0;
+        public float strength
+        {
+            get
+            {
+                float val = 0f;
+                foreach (AbstractCreature crit in room.abstractRoom.creatures.FindAll(c => c.realizedCreature != null && data.creaturesToDetect.Contains(c.creatureTemplate.type)))
+                {
+                    float calc = 0f;
+                    if (data.innerDetectionRad == 1f)
+                    {
+                        calc = Custom.DistLess(crit.realizedCreature.mainBodyChunk.pos, pObj.pos, data.DetectRad) ? 1f : 0f;
+                    }
+                    else
+                    {
+                        calc = Mathf.InverseLerp(data.DetectRad, data.DetectRad * data.innerDetectionRad, (pObj.pos - crit.realizedCreature.mainBodyChunk.pos).magnitude);
+                    }
+
+                    if (calc > val)
+                    {
+                        val = calc;
+                    }
+                }
+
+                return val;
+            }
+        }
 
         public CreatureLight(Room room, PlacedObject pObj) : base()
         {
@@ -53,7 +78,7 @@ namespace OvergrownUrban.CreatureLight
 
                 Light[i].setPos = pObj.pos;
                 Light[i].setRad = data.LightRad;
-                Light[i].setAlpha = CritDetected ? (i == 0 ? 0f : data.strength[1]) : (i == 0 ? data.strength[0] : 0f);
+                Light[i].setAlpha = (i == 0) ? Mathf.Lerp(data.strength[i], 0f, strength) : Mathf.Lerp(0f, data.strength[i], strength);
                 Light[i].fadeWithSun = data.fadeWithSun[i];
                 Light[i].colorFromEnvironment = data.colorType[i] == PlacedObject.LightSourceData.ColorType.Environment;
                 Light[i].flat = data.flat[i];
